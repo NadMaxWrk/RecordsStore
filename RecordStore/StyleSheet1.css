@@ -1,0 +1,41 @@
+﻿body {
+    background-color: lightslategrey;
+    color: white;
+    font-size: medium;
+    direction: rtl;
+    font-family:Arial;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Book';
+    font-style: italic;
+    font-size: xx-large;
+    color: white;
+    direction: ltr;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+tr {
+    border: double;
+    border-color: white;
+}
+
+
+th {
+    font-family: FrankRuehl;
+    font-style: normal;
+    font-size: 70px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+}
