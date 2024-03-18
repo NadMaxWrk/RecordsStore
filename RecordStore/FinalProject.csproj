@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HomePage.html" />
     <Content Include="SignupForm.html" />
     <Content Include="SignupForm.js" />
     <Content Include="StyleSheet1.css" />

@@ -4,3 +4,6 @@
 
 /.vs
 /RecordStore/obj/Debug
+/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1
+/RecordStore/bin
+/RecordStore/obj/Release
