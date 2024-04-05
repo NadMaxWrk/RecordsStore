@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FinalProjectUpdated.ASPPages.MasterPage" %>
+<link href="StyleSheets/StyleSheetNavBar.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>The Records Store!</title>
+    <link href="StyleSheetNavBar.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="navbar">
+    <a href="HomePage.aspx">בית</a>
+    <div class="dropdown">
+        <button class="dropbtn">
+        אמנים
+        </button>
+         <div class="dropdown-content">
+             <a href="TaylorSwiftAlbumsPage.aspx">טיילור סוויפט </a>
+             <a href="HarryStylesAlbumsPage.aspx">הארי סטיילס </a>
+             <a href="BillieAlbums.aspx">בילי אייליש </a>
+             <a href="LanaDelReyAlbumsPage.aspx">לנה דל ריי </a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">
+            ז'אנרים
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">פופ</a>
+            <a href="#">רוק</a>
+            <a href="#">היפ הופ</a>
+
+        </div>
+    </div>
+     <div class="dropdown">
+     <button class="dropbtn">
+         טפסים
+         <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+         <a href="FormPage.aspx">טופס הרשמה</a>
+         <a href="#">התחברות</a>
+         
+     </div>
+     </div>
+</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
