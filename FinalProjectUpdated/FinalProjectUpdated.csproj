@@ -67,28 +67,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ASPPages\BillieAlbums.aspx" />
+    <Content Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx" />
     <Content Include="ASPPages\EyesPassword\ClosedEye.png" />
     <Content Include="ASPPages\EyesPassword\OpenEye.png" />
     <Content Include="ASPPages\FormPage.aspx" />
-    <Content Include="ASPPages\HarryStylesAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx" />
     <Content Include="ASPPages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
-    <Content Include="ASPPages\LanaDelReyAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
     <Content Include="ASPPages\StyleSheets\StyleSheetHomePage.css" />
-    <Content Include="ASPPages\TaylorSwiftAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ASPPages\BillieAlbums.aspx.cs">
-      <DependentUpon>BillieAlbums.aspx</DependentUpon>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx.cs">
+      <DependentUpon>BillieAlbumsPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\BillieAlbums.aspx.designer.cs">
-      <DependentUpon>BillieAlbums.aspx</DependentUpon>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx.designer.cs">
+      <DependentUpon>BillieAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\FormPage.aspx.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
@@ -97,11 +97,11 @@
     <Compile Include="ASPPages\FormPage.aspx.designer.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\HarryStylesAlbumsPage.aspx.cs">
+    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.cs">
       <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\HarryStylesAlbumsPage.aspx.designer.cs">
+    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.designer.cs">
       <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\HomePage.aspx.cs">
@@ -111,11 +111,11 @@
     <Compile Include="ASPPages\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\LanaDelReyAlbumsPage.aspx.cs">
+    <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.cs">
       <DependentUpon>LanaDelReyAlbumsPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\LanaDelReyAlbumsPage.aspx.designer.cs">
+    <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.designer.cs">
       <DependentUpon>LanaDelReyAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\MasterPage.Master.cs">
@@ -125,11 +125,11 @@
     <Compile Include="ASPPages\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\TaylorSwiftAlbumsPage.aspx.cs">
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx.cs">
       <DependentUpon>TaylorSwiftAlbumsPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\TaylorSwiftAlbumsPage.aspx.designer.cs">
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx.designer.cs">
       <DependentUpon>TaylorSwiftAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

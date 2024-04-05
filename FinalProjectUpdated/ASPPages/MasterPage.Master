@@ -1,11 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FinalProjectUpdated.ASPPages.MasterPage" %>
-<link href="StyleSheets/StyleSheetNavBar.css" rel="stylesheet" />
+<link href="<%= ResolveUrl("~/ASPPages/StyleSheets/StyleSheetNavBar.css") %>" rel="stylesheet" />  
+
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title>The Records Store!</title>
-    <link href="StyleSheetNavBar.css" rel="stylesheet" />
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -13,16 +14,16 @@
     <form id="form1" runat="server">
         <div>
             <div class="navbar">
-    <a href="HomePage.aspx">בית</a>
+    <a href="<%= ResolveUrl("~/ASPPages/HomePage.aspx") %>">בית</a>
     <div class="dropdown">
         <button class="dropbtn">
         אמנים
         </button>
          <div class="dropdown-content">
-             <a href="TaylorSwiftAlbumsPage.aspx">טיילור סוויפט </a>
-             <a href="HarryStylesAlbumsPage.aspx">הארי סטיילס </a>
-             <a href="BillieAlbums.aspx">בילי אייליש </a>
-             <a href="LanaDelReyAlbumsPage.aspx">לנה דל ריי </a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>">טיילור סוויפט</a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>"> הארי סטיילס</a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieAlbumsPage.aspx") %>">בילי אייליש </a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
         </div>
     </div>
     <div class="dropdown">
@@ -43,7 +44,7 @@
          <i class="fa fa-caret-down"></i>
      </button>
      <div class="dropdown-content">
-         <a href="FormPage.aspx">טופס הרשמה</a>
+         <a href="<%= ResolveUrl("~/ASPPages/FormPage.aspx") %>">טופס הרשמה</a>
          <a href="#">התחברות</a>
          
      </div>
