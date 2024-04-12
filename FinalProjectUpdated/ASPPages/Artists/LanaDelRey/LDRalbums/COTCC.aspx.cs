@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace FinalProjectUpdated.ASPPages.BillieEilish
+namespace FinalProjectUpdated.ASPPages.Artists.LanaDelRey.LDRalbums
 {
-    public partial class BillieEIlishAlbumsPage : System.Web.UI.Page
+    public partial class COTCC : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

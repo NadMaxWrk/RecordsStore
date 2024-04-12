@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalProjectUpdated.ASPPages.HarryStyles
+namespace FinalProjectUpdated.ASPPages.Artists.LanaDelRey.LDRalbums
 {
 
 
-    public partial class HarryStylesAlbumsPage
+    public partial class Ultraviolence
     {
     }
 }

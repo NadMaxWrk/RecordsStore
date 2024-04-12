@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalProjectUpdated.ASPPages.BillieEilish
+namespace FinalProjectUpdated.ASPPages.Artists.LanaDelRey.LDRalbums
 {
 
 
-    public partial class BillieEIlishAlbumsPage
+    public partial class COTCC
     {
     }
 }

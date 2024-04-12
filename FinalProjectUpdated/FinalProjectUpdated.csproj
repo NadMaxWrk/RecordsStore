@@ -71,13 +71,20 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\FineLine.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HarrysHouse.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HS1.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\BlueBanisters.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\BornToDie.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\COTCC.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\DYKTTATUOB.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\Honeymoon.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\LustForLife.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\NFR.aspx" />
+    <Content Include="ASPPages\Artists\LanaDelRey\LDRalbums\Ultraviolence.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\1989.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Debut.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\evermore.aspx" />
@@ -92,7 +99,6 @@
     <Content Include="ASPPages\EyesPassword\ClosedEye.png" />
     <Content Include="ASPPages\EyesPassword\OpenEye.png" />
     <Content Include="ASPPages\FormPage.aspx" />
-    <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx" />
     <Content Include="ASPPages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
@@ -122,8 +128,7 @@
     <Content Include="ASPPages\pictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
-    <Content Include="ASPPages\StyleSheets\BillieAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\HSAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\LDRalbums.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
@@ -133,13 +138,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx.cs">
-      <DependentUpon>BillieAlbumsPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx.designer.cs">
-      <DependentUpon>BillieAlbumsPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx.cs">
       <DependentUpon>HMHAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -181,6 +179,62 @@
     </Compile>
     <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HS1.aspx.designer.cs">
       <DependentUpon>HS1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\BlueBanisters.aspx.cs">
+      <DependentUpon>BlueBanisters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\BlueBanisters.aspx.designer.cs">
+      <DependentUpon>BlueBanisters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\BornToDie.aspx.cs">
+      <DependentUpon>BornToDie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\BornToDie.aspx.designer.cs">
+      <DependentUpon>BornToDie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\COTCC.aspx.cs">
+      <DependentUpon>COTCC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\COTCC.aspx.designer.cs">
+      <DependentUpon>COTCC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\DYKTTATUOB.aspx.cs">
+      <DependentUpon>DYKTTATUOB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\DYKTTATUOB.aspx.designer.cs">
+      <DependentUpon>DYKTTATUOB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\Honeymoon.aspx.cs">
+      <DependentUpon>Honeymoon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\Honeymoon.aspx.designer.cs">
+      <DependentUpon>Honeymoon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\LustForLife.aspx.cs">
+      <DependentUpon>LustForLife.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\LustForLife.aspx.designer.cs">
+      <DependentUpon>LustForLife.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\NFR.aspx.cs">
+      <DependentUpon>NFR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\NFR.aspx.designer.cs">
+      <DependentUpon>NFR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\Ultraviolence.aspx.cs">
+      <DependentUpon>Ultraviolence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\LanaDelRey\LDRalbums\Ultraviolence.aspx.designer.cs">
+      <DependentUpon>Ultraviolence.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\1989.aspx.cs">
       <DependentUpon>1989.aspx</DependentUpon>
@@ -265,13 +319,6 @@
     </Compile>
     <Compile Include="ASPPages\FormPage.aspx.designer.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.cs">
-      <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.designer.cs">
-      <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
