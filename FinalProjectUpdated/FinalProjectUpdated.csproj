@@ -67,10 +67,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx" />
+    <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx" />
+    <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\FineLine.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HarrysHouse.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HS1.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\1989.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Debut.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\evermore.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Fearless.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\folklore.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Lover.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Midnights.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\RED.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx" />
+    <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx" />
     <Content Include="ASPPages\EyesPassword\ClosedEye.png" />
     <Content Include="ASPPages\EyesPassword\OpenEye.png" />
     <Content Include="ASPPages\FormPage.aspx" />
@@ -78,6 +96,10 @@
     <Content Include="ASPPages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
+    <Content Include="ASPPages\LogIn.aspx" />
+    <Content Include="ASPPages\pictures\1989.jpg" />
+    <Content Include="ASPPages\pictures\fearless.jpg" />
+    <Content Include="ASPPages\pictures\HitMeHardandSoft.png" />
     <Content Include="ASPPages\pictures\BlueBanisters.jpg" />
     <Content Include="ASPPages\pictures\BornToDIe.jpg" />
     <Content Include="ASPPages\pictures\COTCC.jpg" />
@@ -93,17 +115,21 @@
     <Content Include="ASPPages\pictures\LustForLife.jpg" />
     <Content Include="ASPPages\pictures\Midnights.jpg" />
     <Content Include="ASPPages\pictures\NFR.jpg" />
+    <Content Include="ASPPages\pictures\RED.jpg" />
     <Content Include="ASPPages\pictures\Reputation.jpg" />
     <Content Include="ASPPages\pictures\SpeakNow.jpg" />
     <Content Include="ASPPages\pictures\TaylorSwift.jpg" />
+    <Content Include="ASPPages\pictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\StyleSheets\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\HSAlbums.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
     <Content Include="ASPPages\StyleSheets\StyleSheetHomePage.css" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx" />
+    <Content Include="ASPPages\StyleSheets\TaylorAlbums.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +139,27 @@
     </Compile>
     <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbumsPage.aspx.designer.cs">
       <DependentUpon>BillieAlbumsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx.cs">
+      <DependentUpon>HMHAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx.designer.cs">
+      <DependentUpon>HMHAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx.cs">
+      <DependentUpon>HTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx.designer.cs">
+      <DependentUpon>HTE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx.cs">
+      <DependentUpon>WWAFAWDWG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx.designer.cs">
+      <DependentUpon>WWAFAWDWG.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\FineLine.aspx.cs">
       <DependentUpon>FineLine.aspx</DependentUpon>
@@ -134,6 +181,83 @@
     </Compile>
     <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbums\HS1.aspx.designer.cs">
       <DependentUpon>HS1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\1989.aspx.cs">
+      <DependentUpon>1989.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\1989.aspx.designer.cs">
+      <DependentUpon>1989.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Debut.aspx.cs">
+      <DependentUpon>Debut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Debut.aspx.designer.cs">
+      <DependentUpon>Debut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\evermore.aspx.cs">
+      <DependentUpon>evermore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\evermore.aspx.designer.cs">
+      <DependentUpon>evermore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Fearless.aspx.cs">
+      <DependentUpon>Fearless.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Fearless.aspx.designer.cs">
+      <DependentUpon>Fearless.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\folklore.aspx.cs">
+      <DependentUpon>folklore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\folklore.aspx.designer.cs">
+      <DependentUpon>folklore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Lover.aspx.cs">
+      <DependentUpon>Lover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Lover.aspx.designer.cs">
+      <DependentUpon>Lover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Midnights.aspx.cs">
+      <DependentUpon>Midnights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Midnights.aspx.designer.cs">
+      <DependentUpon>Midnights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\RED.aspx.cs">
+      <DependentUpon>RED.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\RED.aspx.designer.cs">
+      <DependentUpon>RED.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx.cs">
+      <DependentUpon>Reputation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx.designer.cs">
+      <DependentUpon>Reputation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx.cs">
+      <DependentUpon>SpeakNow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx.designer.cs">
+      <DependentUpon>SpeakNow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx.cs">
+      <DependentUpon>TTPD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx.designer.cs">
+      <DependentUpon>TTPD.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\FormPage.aspx.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
@@ -162,6 +286,13 @@
     </Compile>
     <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.designer.cs">
       <DependentUpon>LanaDelReyAlbumsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

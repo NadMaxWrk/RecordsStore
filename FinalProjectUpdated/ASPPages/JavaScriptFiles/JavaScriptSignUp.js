@@ -148,6 +148,15 @@ function CreateUser()
 
 }
 
+function CheckLogIn()
+{
+    var res = true;
+    res = CheckUserName() && res;
+    res = CheckPassword() && res;
+    return res;
+
+}
+
 function ResetErrors()
 {
     document.getElementById("errorFirstName").innerHTML = "";
@@ -177,3 +186,4 @@ window.CheckAge = CheckAge;
 window.CheckGender = CheckGender;
 window.CreateUser = CreateUser;
 window.ResetErrors = ResetErrors;
+window.CheckLogIn = CheckLogIn;
