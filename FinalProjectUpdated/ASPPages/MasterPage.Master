@@ -21,8 +21,8 @@
         </button>
          <div class="dropdown-content">
              <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>">טיילור סוויפט</a>
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarrysAlbumsPage.aspx") %>"> הארי סטיילס</a>
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieAlbumsPage.aspx") %>">בילי אייליש </a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>"> הארי סטיילס</a>
+             <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
              <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
         </div>
     </div>

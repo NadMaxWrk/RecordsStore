@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="HarrysAlbumsPage.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.HarryStyles.HarrysAlbumsPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="HarryStylesAlbumsPage.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.HarryStyles.HarrysAlbumsPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../../StyleSheets/HSAlbums.css" rel="stylesheet" />

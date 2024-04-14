@@ -74,7 +74,8 @@
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx" />
-    <Content Include="ASPPages\Artists\HarryStyles\HarrysAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\BillieEilish\BillieEilishAlbumsPage.aspx" />
+    <Content Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HSAlbumsPages\FineLine.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HSAlbumsPages\HarrysHouse.aspx" />
     <Content Include="ASPPages\Artists\HarryStyles\HSAlbumsPages\HS.aspx" />
@@ -129,6 +130,7 @@
     <Content Include="ASPPages\pictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\StyleSheets\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\HSAlbums.css" />
     <Content Include="ASPPages\StyleSheets\LDRalbums.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
@@ -161,12 +163,19 @@
     <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx.designer.cs">
       <DependentUpon>WWAFAWDWG.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\Artists\HarryStyles\HarrysAlbumsPage.aspx.cs">
-      <DependentUpon>HarrysAlbumsPage.aspx</DependentUpon>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieEilishAlbumsPage.aspx.cs">
+      <DependentUpon>BillieEilishAlbumsPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\Artists\HarryStyles\HarrysAlbumsPage.aspx.designer.cs">
-      <DependentUpon>HarrysAlbumsPage.aspx</DependentUpon>
+    <Compile Include="ASPPages\Artists\BillieEilish\BillieEilishAlbumsPage.aspx.designer.cs">
+      <DependentUpon>BillieEilishAlbumsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.cs">
+      <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\HarryStyles\HarryStylesAlbumsPage.aspx.designer.cs">
+      <DependentUpon>HarryStylesAlbumsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Artists\HarryStyles\HSAlbumsPages\FineLine.aspx.cs">
       <DependentUpon>FineLine.aspx</DependentUpon>
