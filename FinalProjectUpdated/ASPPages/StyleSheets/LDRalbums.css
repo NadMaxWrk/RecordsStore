@@ -20,10 +20,12 @@
     .image-container img {
         max-width: 100%;
         height: auto;
-        margin: 0 10px; /* Add some margin between images */
+        margin: 0 20px; /* Add some margin between images */
     }
 
-
+.single-image {
+    margin-top: 20px; /* Add some space above the single image */
+}
 
 img {
     width: 250px;
@@ -32,3 +34,4 @@ img {
     margin-left: 200px;
     margin-top: 50px;
 }
+
