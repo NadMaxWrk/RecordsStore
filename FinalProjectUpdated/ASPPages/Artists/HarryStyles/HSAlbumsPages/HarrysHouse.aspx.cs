@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace FinalProjectUpdated.ASPPages.Artists.HarryStyles.HarryStylesAlbums
+namespace FinalProjectUpdated.ASPPages.Artists.HarryStyles.HSAlbumsPages
 {
-    public partial class HS1 : System.Web.UI.Page
+    public partial class HarrysHouse : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

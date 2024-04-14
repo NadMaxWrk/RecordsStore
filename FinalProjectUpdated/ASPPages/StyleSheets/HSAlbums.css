@@ -1,0 +1,35 @@
+﻿/* Reset all margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: calc(100vh - 50px); /* Subtracting height of the nav bar */
+}
+
+/* Style for each image and caption */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px; /* Margin between images */
+}
+
+    .image-container img {
+        max-width: 200%; /* Ensure images don't exceed container width */
+        max-height: 300px; /* Limit the height of the images */
+        margin: 0 70px; /* Margin around images */
+    }
+
+.caption {
+    text-align: center;/* Center the caption text */
+    margin-top: 5px; /* Margin between image and caption */
+}

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FinalProjectUpdated.ASPPages.Artists.HarryStyles.HarryStylesAlbums
+namespace FinalProjectUpdated.ASPPages.Artists.HarryStyles.HSAlbumsPages
 {
 
 
-    public partial class HarrysHouse
+    public partial class FineLine
     {
     }
 }
