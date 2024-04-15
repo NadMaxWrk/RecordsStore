@@ -3,6 +3,8 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
+    font-family: HarrysHouse;
+    color: coral;
 }
 
 .container1 {
@@ -32,8 +34,13 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 30px;
-    font-family: Calibri;
+    font-size: 40px;
+    font-family: HarrysHouse;
     margin-right: 85px;
     margin-top: 20px;
+}
+
+@font-face{
+    font-family: HarrysHouse;
+    src: url(../../fonts/HarrysHouse.ttf);
 }

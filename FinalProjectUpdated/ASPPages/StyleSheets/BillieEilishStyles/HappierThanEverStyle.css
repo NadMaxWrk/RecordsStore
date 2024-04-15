@@ -3,6 +3,8 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
+    font-family: HappierThanEver;
+    color: peru;    
 }
 
 .container1 {
@@ -32,8 +34,19 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 30px;
-    font-family: Calibri;
+    font-size: 25px;
+    font-family: tracklist;
+    font-style: italic;
     margin-right: 85px;
     margin-top: 20px;
+}
+
+@font-face{
+    font-family: HappierThanEver;
+    src: url(../../fonts/HappierThanEver.ttf);
+}
+
+@font-face{
+    font-family: tracklist;
+    src: url(../../fonts/HappierThanEverTracklist.ttf);
 }

@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
+    font-family:WhenWeAllFallAsleep;
 }
 
 .container1 {
@@ -32,8 +33,13 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Calibri;
     margin-right: 85px;
     margin-top: 20px;
+}
+
+@font-face{
+    font-family: WhenWeAllFallAsleep;
+    src: url(../../fonts/Whenweallfallasleep-Regular.ttf);
 }

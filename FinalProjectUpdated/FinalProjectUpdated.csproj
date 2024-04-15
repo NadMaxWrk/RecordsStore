@@ -98,8 +98,6 @@
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx" />
-    <Content Include="ASPPages\EyesPassword\ClosedEye.png" />
-    <Content Include="ASPPages\EyesPassword\OpenEye.png" />
     <Content Include="ASPPages\FormPage.aspx" />
     <Content Include="ASPPages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
@@ -382,6 +380,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ASPPages\MasterPage.Master" />
+    <Content Include="ASPPages\fonts\FineLine.ttf" />
+    <Content Include="ASPPages\fonts\HarrysHouse.ttf" />
+    <Content Include="ASPPages\fonts\Whenweallfallasleep-Regular.ttf" />
+    <Content Include="ASPPages\fonts\HappierThanEver.ttf" />
+    <Content Include="ASPPages\fonts\HappierThanEverTracklist.ttf" />
+    <Content Include="ASPPages\fonts\HarryStyles.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

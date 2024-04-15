@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
+    font-family: FineLine;
 }
 
 .container1 {
@@ -33,9 +34,14 @@ img{
 
 .tracklist{
     text-align:center;
-    font-size: 30px;
-    font-family:Calibri;
+    font-size: 25px;
+    font-family:FineLine;
     margin-right: 85px;
     margin-top: 20px;
     
+}
+
+@font-face{
+    font-family: FineLine;
+    src: url("../../fonts/FineLine.ttf")
 }
