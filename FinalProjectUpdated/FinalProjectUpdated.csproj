@@ -130,15 +130,18 @@
     <Content Include="ASPPages\pictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
-    <Content Include="ASPPages\StyleSheets\BillieAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\HSAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\LDRalbums.css" />
+    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\HsStyles\FineLineStyle.css" />
+    <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
+    <Content Include="ASPPages\StyleSheets\HsStyles\HarryStylesStyle.css" />
+    <Content Include="ASPPages\StyleSheets\HsStyles\HSAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\LDRalbums.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
     <Content Include="ASPPages\StyleSheets\StyleSheetHomePage.css" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx" />
-    <Content Include="ASPPages\StyleSheets\TaylorAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\TaylorAlbums.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
