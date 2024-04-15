@@ -119,7 +119,7 @@
     <Content Include="ASPPages\pictures\honeymoon.jpg" />
     <Content Include="ASPPages\pictures\Lover.jpg" />
     <Content Include="ASPPages\pictures\LustForLife.jpg" />
-    <Content Include="ASPPages\pictures\Midnights.jpg" />
+    <Content Include="ASPPages\pictures\Midnights3am.jpg" />
     <Content Include="ASPPages\pictures\NFR.jpg" />
     <Content Include="ASPPages\pictures\RED.jpg" />
     <Content Include="ASPPages\pictures\Reputation.jpg" />
@@ -141,7 +141,18 @@
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
     <Content Include="ASPPages\StyleSheets\StyleSheetHomePage.css" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\1989Style.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\evermoreStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\FearlessStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\folkloreStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\LoverStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\MidnightsStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\RedStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\RepStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\SpeakNowStyle.css" />
     <Content Include="ASPPages\StyleSheets\TaylorStyles\TaylorAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\TaylorSwiftStyle.css" />
+    <Content Include="ASPPages\StyleSheets\TaylorStyles\TTPDStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

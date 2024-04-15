@@ -1,0 +1,39 @@
+﻿h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    font-family: Calibri;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+}
+
+.info {
+    font-family: Calibri;
+    text-align: right;
+    direction: rtl;
+    font-size: 30px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+img {
+    text-align: left;
+    height: 450px;
+    width: 450px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.tracklist {
+    text-align: center;
+    font-size: 25px;
+    font-family: Calibri;
+    margin-right: 85px;
+    margin-top: 20px;
+}

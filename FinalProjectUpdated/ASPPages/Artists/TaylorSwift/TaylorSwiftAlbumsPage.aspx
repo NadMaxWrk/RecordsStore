@@ -17,28 +17,28 @@
                 <a href="TaylorAlbums/Fearless.aspx">
                     <img src="../../pictures/fearless.jpg" />
                 </a>
-                <div style="text-align:center; font-family: Calibri;">Fearless </div>
+                <div style="text-align:center; font-family: Calibri;">Fearless (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/SpeakNow.aspx">
                     <img src="../../pictures/SpeakNow.jpg" />
                 </a>
-                <div style="text-align:center; font-family: Calibri;">Speak Now </div>
+                <div style="text-align:center; font-family: Calibri;">Speak Now (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/RED.aspx">
                     <img src="../../pictures/RED.jpg" />
                 </a>
-                <div style="text-align:center; font-family: Calibri;">Red </div>
+                <div style="text-align:center; font-family: Calibri;">Red (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/1989.aspx">
                     <img src="../../pictures/1989.jpg" />
                 </a>
-                <div style="text-align:center; font-family: Calibri;">1989 </div>
+                <div style="text-align:center; font-family: Calibri;">1989 (Taylor's Version) </div>
             </div>
 
         </div>
@@ -75,7 +75,7 @@
                 <a href="TaylorAlbums/Midnights.aspx">
                     <img src="../../pictures/Midnights.jpg" />
                 </a>
-                <div style="text-align:center; font-family: Calibri;">Midnighs </div>
+                <div style="text-align:center; font-family: Calibri;">Midnighs (3am Edition) </div>
             </div>
 
         </div>
