@@ -131,6 +131,8 @@
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
+    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\WWAFAWDWGstyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\FineLineStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarryStylesStyle.css" />

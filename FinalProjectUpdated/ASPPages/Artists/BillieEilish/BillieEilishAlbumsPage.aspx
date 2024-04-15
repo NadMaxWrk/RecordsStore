@@ -9,7 +9,7 @@
             <a href="BillieAlbums/WWAFAWDWG.aspx">
                 <img src="../../pictures/whenweallfallasleepwheredowego.jpg" />
             </a>
-            <div class="caption">WHEN WE ALL FALL ASLEEP WHERE DO WE GO?</div>
+            <div class="caption">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</div>
         </div>
         <div class="image-container">
             <a href="BillieAlbums/HTE.aspx">
