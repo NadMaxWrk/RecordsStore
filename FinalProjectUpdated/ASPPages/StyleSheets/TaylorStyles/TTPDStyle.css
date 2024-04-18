@@ -1,8 +1,10 @@
-﻿h1 {
+﻿
+h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
-    font-family: FineLine;
+    font-family: TTPD;
+    font-weight: 100;
 }
 
 .container1 {
@@ -18,7 +20,7 @@
     direction: rtl;
     font-size: 30px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 img {
@@ -27,7 +29,7 @@ img {
     width: 450px;
     margin-left: 100px;
     margin-bottom: 70px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .tracklist {
@@ -35,6 +37,11 @@ img {
     font-size: 25px;
     font-family: FineLine;
     margin-right: 85px;
-    margin-top: 20px;
+    margin-top: 30px;
     direction: ltr;
+}
+
+@font-face{
+    font-family: TTPD;
+    src: url(../../fonts/TTPD.ttf);
 }

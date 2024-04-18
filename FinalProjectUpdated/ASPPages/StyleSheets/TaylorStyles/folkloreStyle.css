@@ -1,8 +1,10 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    font-size: 90px;
+    font-family: folklore;
+    color: darkgray;
+    font-weight: 300;
 }
 
 .container1 {
@@ -27,13 +29,19 @@ img {
     width: 450px;
     margin-left: 100px;
     margin-bottom: 70px;
-    margin-top: 20px;
 }
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
-    margin-right: 85px;
+    font-size: 30px;
+    font-family: folklore;
+    margin-right: 110px;
     margin-top: 20px;
+}
+
+
+@font-face{
+
+    font-family: folklore;
+    src: url(../../fonts/folklore.ttf);
 }

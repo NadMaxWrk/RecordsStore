@@ -1,8 +1,10 @@
 ﻿h1 {
     text-align: center;
-    margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    margin-top: 25px;
+    font-size: 150px;
+    font-family: Lover;
+    color: hotpink;
+    font-weight: 500;
 }
 
 .container1 {
@@ -32,8 +34,19 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 23px;
+    font-family: LoverTracklist ;
     margin-right: 85px;
-    margin-top: 20px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: Lover;
+    src: url(../../fonts/Lover.ttf);
+}
+
+@font-face{
+    font-family: LoverTracklist;
+    src: url(../../fonts/LoverTracklist.ttf);
 }

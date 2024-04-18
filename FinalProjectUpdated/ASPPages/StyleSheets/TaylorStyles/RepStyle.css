@@ -1,8 +1,9 @@
 ﻿h1 {
     text-align: center;
-    margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    margin-top: 30px;
+    font-size: 110px;
+    font-family: REP;
+    letter-spacing: 10px;
 }
 
 .container1 {
@@ -32,9 +33,23 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 37px;
+    font-family: REPTracklist;
     margin-right: 85px;
     margin-top: 20px;
     direction: ltr;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+
+
+@font-face {
+    font-family: REP;
+    src: url(../../fonts/Reputation.ttf);
+}
+
+@font-face {
+    font-family: REPTracklist;
+    src: url(../../fonts/RepTracklist.ttf);
 }

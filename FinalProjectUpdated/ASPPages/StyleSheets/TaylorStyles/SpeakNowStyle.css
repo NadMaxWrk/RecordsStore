@@ -1,8 +1,10 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: Calibri;
+    font-size: 50px;
+    font-family: SpeakNow;
+    color: rebeccapurple;
+
 }
 
 .container1 {
@@ -32,8 +34,17 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: Calibri;
+    font-size: 22px;
+    font-family: SpeakNowTracklist;
     margin-right: 85px;
-    margin-top: 20px;
+}
+
+@font-face{
+    font-family: SpeakNow;
+    src: url(../../fonts/SpeakNowMedium.otf);
+}
+
+@font-face{
+    font-family: SpeakNowTracklist;
+    src: url(../../fonts/SpeakNowTracklist.otf);
 }

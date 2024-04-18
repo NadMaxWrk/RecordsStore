@@ -4,7 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-     <h1>1989 (Taylor's Version) </h1>
+     <h1>
+         <span class="Title1989"> 1989 <br /> </span>
+         <span class="TaylorsVersion"> (TAYLOR'S VERSION) </span>
+     </h1>
  <div class="container1">
      <p class="info">
          <b>שם האמן:</b> טיילור סוויפט
@@ -36,9 +39,9 @@
         New Romantics (Taylor’s Version) <br />
         Slut! (Taylor’s Version)' (From the Vault) <br />
         Say Don’t Go (Taylor’s Version)' (From the Vault) <br />
-        Now That We Don’t Talk (Taylor’s Version)' (From the Vault) <br />
-        Suburban Legends (Taylor’s Version)' (From the Vault) <br />
-        Is It Over Now? (Taylor’s Version)' (From the Vault) <br />
+        Now That We Don’t Talk (Taylor’s Version) (From the Vault) <br />
+        Suburban Legends (Taylor’s Version) (From the Vault) <br />
+        Is It Over Now? (Taylor’s Version) (From the Vault) <br />
      </p>
 
      <img src="../../../pictures/1989.jpg" />

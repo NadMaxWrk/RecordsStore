@@ -73,7 +73,7 @@
 
             <div>
                 <a href="TaylorAlbums/Midnights.aspx">
-                    <img src="../../pictures/Midnights.jpg" />
+                    <img src="../../pictures/Midnights3am.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Midnighs (3am Edition) </div>
             </div>

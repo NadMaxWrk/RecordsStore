@@ -1,8 +1,19 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+}
+
+.Title1989 {
+    font-family: TS1989;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.TaylorsVersion {
+    font-family: TaylorsVersion;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
 }
 
 .container1 {
@@ -32,8 +43,20 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 18px;
+    font-family: TaylorsVersion;
     margin-right: 85px;
-    margin-top: 20px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: TS1989;
+    src: url(../../fonts/TS1989.ttf);
+}
+
+@font-face{
+    font-family: TaylorsVersion;
+    src: url(../../fonts/1989TVcaption.ttf)
 }

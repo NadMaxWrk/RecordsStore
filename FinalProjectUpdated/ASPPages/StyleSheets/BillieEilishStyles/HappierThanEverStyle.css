@@ -2,9 +2,10 @@
 h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
+    font-size: 90px;
     font-family: HappierThanEver;
     color: peru;    
+    font-weight: 100;
 }
 
 .container1 {

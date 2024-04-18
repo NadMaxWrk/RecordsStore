@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
-    font-family: Calibri;
+    font-family: TSDebut;
 }
 
 .container1 {
@@ -36,4 +36,9 @@ img {
     font-family: Calibri;
     margin-right: 85px;
     margin-top: 20px;
+}
+
+@font-face{
+    font-family: TSDebut;
+    src: url(../../fonts/TaylorDebut.ttf);
 }

@@ -135,7 +135,15 @@
     <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarryStylesStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HSAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\BlueBanistersStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\BornToDieStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\CotccStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\HoneymoonStyle.css" />
     <Content Include="ASPPages\StyleSheets\LDRStyles\LDRalbums.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\LustForLifeStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\NFRStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\TunnelStyle.css" />
+    <Content Include="ASPPages\StyleSheets\LDRStyles\UltraviolenceStyle.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
     <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
@@ -397,6 +405,21 @@
     <Content Include="ASPPages\fonts\HappierThanEver.ttf" />
     <Content Include="ASPPages\fonts\HappierThanEverTracklist.ttf" />
     <Content Include="ASPPages\fonts\HarryStyles.ttf" />
+    <Content Include="ASPPages\fonts\1989TVcaption.ttf" />
+    <Content Include="ASPPages\fonts\Folklore.ttf" />
+    <Content Include="ASPPages\fonts\Lover.ttf" />
+    <Content Include="ASPPages\fonts\Midnights.ttf" />
+    <Content Include="ASPPages\fonts\TS1989.ttf" />
+    <Content Include="ASPPages\fonts\Reputation.ttf" />
+    <Content Include="ASPPages\fonts\RepTracklist.ttf" />
+    <Content Include="ASPPages\fonts\fearless.ttf" />
+    <Content Include="ASPPages\fonts\LoverTracklist.ttf" />
+    <Content Include="ASPPages\fonts\RED.ttf" />
+    <Content Include="ASPPages\fonts\SpeakNow.ttf" />
+    <Content Include="ASPPages\fonts\SpeakNowMedium.otf" />
+    <Content Include="ASPPages\fonts\SpeakNowTracklist.otf" />
+    <Content Include="ASPPages\fonts\TTPD.ttf" />
+    <Content Include="ASPPages\fonts\TaylorDebut.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -4,7 +4,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    
         <h1> folklore </h1>
 <div class="container1">
     <p class="info">
@@ -14,7 +13,7 @@
         <br />
         <b>לייבל: </b> Republic Records 
         <br />
-        <b>ז'אנרים: </b> אלטרנטבי, אינדי
+        <b>ז'אנרים: </b> אלטרנטבי, אינדי, פולק
     </p>
 
 

@@ -19,24 +19,24 @@
 
 
     <p class="tracklist">
-        I Forgot That You Existed <br />
-        Cruel Summer <br />
-        Lover<br />
-        The Man <br />
-        The Archer <br />
-        I Think He Knows <br />
-        Miss Americana & the Heartbreak Prince <br />
-        Paper Rings <br />
-        Cornelia Street <br />
-        Death By a Thousand Cuts <br />
-        London Boy <br />
-        Soon You’ll Get Better (feat. Dixie Chicks) <br />
-        False God <br />
-        You Need to Calm Down <br />
-        Afterglow <br />
-        ME! (feat. Brendon Urie) <br />
-        It’s Nice to Have a Friend <br />
-        Daylight <br />
+        I FORGOT THAT YOU EXISTED <br />
+        CRUEL SUMMER <br />
+        LOVER <br />
+        THE MAN <br />
+        THE ARCHER <br />
+        I THINK HE KNOWS <br />
+        MISS AMERICNAN & THE HEARTBREAK PRINCE <br />
+        PAPER RINGS <br />
+        CORNEILA STREET <br />
+        DEATH BY A THOUSAND CUTS <br />
+        LONDON BOY <br />
+        SOON YOU'LL GET BETTER (FEAT. DIXIE CHICKS) <br />
+        FALSE GOD <br />
+        YOU NEED TO CALM DOWN <br />
+        AFTERGLOW <br />
+        ME! (FEAT. BRENDON URIE) <br />
+        IT'S NICE TO HAVE A FRIEND <br />
+        DAYLIGHT <br />
     </p>
 
     <img src="../../../pictures/Lover.jpg" />
