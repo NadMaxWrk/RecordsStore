@@ -32,11 +32,11 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="#">פופ</a>
-            <a href="#">רוק</a>
-            <a href="#">קאנטרי</a>
-            <a href="#">אינדי/פולק</a>
-            <a href="#">אלטרנטיבי</a>
+            <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
+            <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
+            <a href="<%= ResolveUrl("~/ASPPages/Genres/CountryAlbums.aspx") %>">קאנטרי</a>
+            <a href="<%= ResolveUrl("~/ASPPages/Genres/IndieFolkAlbums.aspx") %>">אינדי/פולק</a>
+            <a href="<%= ResolveUrl("~/ASPPages/Genres/AlternativeAlbums.aspx") %>">אלטרנטיבי</a>
         </div>
     </div>
      <div class="dropdown">

@@ -99,6 +99,11 @@
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx" />
     <Content Include="ASPPages\FormPage.aspx" />
+    <Content Include="ASPPages\Genres\AlternativeAlbums.aspx" />
+    <Content Include="ASPPages\Genres\CountryAlbums.aspx" />
+    <Content Include="ASPPages\Genres\IndieFolkAlbums.aspx" />
+    <Content Include="ASPPages\Genres\PopAlbums.aspx" />
+    <Content Include="ASPPages\Genres\RockAlbums.aspx" />
     <Content Include="ASPPages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
@@ -361,6 +366,41 @@
     <Compile Include="ASPPages\FormPage.aspx.designer.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ASPPages\Genres\AlternativeAlbums.aspx.cs">
+      <DependentUpon>AlternativeAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Genres\AlternativeAlbums.aspx.designer.cs">
+      <DependentUpon>AlternativeAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Genres\CountryAlbums.aspx.cs">
+      <DependentUpon>CountryAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Genres\CountryAlbums.aspx.designer.cs">
+      <DependentUpon>CountryAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Genres\IndieFolkAlbums.aspx.cs">
+      <DependentUpon>IndieFolkAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Genres\IndieFolkAlbums.aspx.designer.cs">
+      <DependentUpon>IndieFolkAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Genres\PopAlbums.aspx.cs">
+      <DependentUpon>PopAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Genres\PopAlbums.aspx.designer.cs">
+      <DependentUpon>PopAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\Genres\RockAlbums.aspx.cs">
+      <DependentUpon>RockAlbums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Genres\RockAlbums.aspx.designer.cs">
+      <DependentUpon>RockAlbums.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ASPPages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -439,13 +479,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ASPPages\Genres\Alternative\" />
-    <Folder Include="ASPPages\Genres\Country\" />
-    <Folder Include="ASPPages\Genres\Folk Indie\" />
-    <Folder Include="ASPPages\Genres\Pop\" />
-    <Folder Include="ASPPages\Genres\Rock\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
