@@ -5,10 +5,8 @@
     <script type="module" src="JavaScriptFiles/Utils.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1> טופס הרשמה לאתר</h1>
      <table>
-     <tr>
-         <th colspan="3"> טופס הרשמה לאתר </th>
-     </tr>
 
      <tr>
          <td><label for="first_name">שם פרטי: </label></td>

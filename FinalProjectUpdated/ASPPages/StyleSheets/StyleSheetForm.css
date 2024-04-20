@@ -1,26 +1,33 @@
 ﻿body {
     background-color: silver;
     color: black;
-    font-size: medium;
     direction: rtl;
     font-family: Arial;
 }
 
-h2 {
-
+h1 {
+    font-family: FrankRuehl;
     font-style: italic;
-    font-size: xx-large;
-    color: black;
-    direction: ltr;
+    font-size: 70px;
     text-align: center;
+    margin-top: 70px;
 }
 
 table {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 750px;
     align-content: center;
-    width: 500px;
+    width: 600px;
     height: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Calibri;
+    border-color:black;
+}
+
+input{
+    margin-left: 50px;
+    height: 22px;
 }
 
 tr {
@@ -28,22 +35,14 @@ tr {
     border-color: white;
 }
 
-th {
-    font-family: FrankRuehl;
-    font-style: italic;
-    font-size: 70px;
-}
+
+
 
 button {
     margin-left: auto;
-    margin-right: auto;
-     
+    margin-right: 70px;
+    margin-top: 150px;
+    height: 50px;
+    width: 80px;
 }
-
-
-.passwordEye {
-    content: url('../eyespassword/openeye.png');
-    display: contents;
-}
-
 
