@@ -1,8 +1,10 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    font-size: 100px;
+    font-family: Ultraviolence;
+    letter-spacing: 3px;
+    font-weight: 200;
 }
 
 .container1 {
@@ -32,8 +34,15 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 33px;
+    font-family: Ultraviolence;
     margin-right: 30px;
     margin-top: 20px;
+    font-weight: 100;
+    
+}
+
+@font-face{
+    font-family: Ultraviolence;
+    src: url(../../fonts/Ultraviolence.ttf);
 }

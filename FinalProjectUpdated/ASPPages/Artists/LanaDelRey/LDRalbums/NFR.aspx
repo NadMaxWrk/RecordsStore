@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-                        <h1> Norman Fucking Rockwell! </h1>
+                        <h1> NFR! </h1>
 <div class="container1">
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי

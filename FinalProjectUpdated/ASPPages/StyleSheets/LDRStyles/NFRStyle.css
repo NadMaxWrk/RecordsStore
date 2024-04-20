@@ -1,8 +1,8 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    font-size: 75px;
+    font-family: nfr;
 }
 
 .container1 {
@@ -32,8 +32,18 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
-    margin-right: 85px;
-    margin-top: 20px;
+    font-size: 18px;
+    font-family: NFRtracklist;
+    margin-right: 75px;
+    margin-top: 80px;
+}
+
+@font-face{
+    font-family: nfr;
+    src: url(../../fonts/NFR.ttf);
+}
+
+@font-face{
+    font-family: NFRtracklist;
+    src: url(../../fonts/NFRtracklist.ttf);
 }

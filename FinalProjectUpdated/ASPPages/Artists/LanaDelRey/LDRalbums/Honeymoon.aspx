@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-                        <h1> Honeymoon </h1>
+                        <h1> HONEYMOON </h1>
 <div class="container1">
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
@@ -18,20 +18,20 @@
 
 
     <p class="tracklist">
-         Honeymoon <br />
-         Music To Watch Boys To<br />
-         Terrence Loves You<br />
-         God Knows I Tried<br />
-         High By The Beach<br />
-         Freak<br />
-         Art Deco<br />
-         Burnt Norton- Interlude<br />
-         Religion<br />
-         Salvatore<br />
-         The Blackest Day<br />
+         HONEYMOON <br />
+         MUSIC TO WATCH BOYS TO<br />
+         TERRENCE LOVES YOU<br />
+         GOD KNOWS I TRIED <br />
+         HIGH BY THE BEACH<br />
+         FREAK<br />
+         ART DECO<br />
+         BURNT NORTON- INTERLUDE<br />
+         RELIGION<br />
+         SALVATORE<br />
+         THE BLACKEST DAY<br />
          24<br />
-         Swan Song<br />
-         Don't Let Me Be Misunderstood<br />
+         SWAN SONG<br />
+         DON'T LET ME BE MISUNDERSTOOD<br />
     </p>
 
 

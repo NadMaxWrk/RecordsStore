@@ -6,7 +6,7 @@
 
 
 
-                        <h1> Blue Banisters </h1>
+                        <h1> BLUE BANISTERS </h1>
 <div class="container1">
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
@@ -20,7 +20,7 @@
 
 
     <p class="tracklist">
-        Text book <br />
+        Textbook <br />
         Blue Banisters<br />
         Arcadia <br />
         Interlude - The Trio <br />

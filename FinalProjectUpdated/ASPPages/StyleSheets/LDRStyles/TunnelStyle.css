@@ -2,7 +2,9 @@
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
-    font-family: FineLine;
+    font-family: TunnelBlvd;
+    color: #fad983;
+    letter-spacing: 2px;
 }
 
 .container1 {
@@ -18,7 +20,7 @@
     direction: rtl;
     font-size: 30px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 img {
@@ -27,13 +29,20 @@ img {
     width: 450px;
     margin-left: 100px;
     margin-bottom: 70px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
-    margin-right: 85px;
-    margin-top: 20px;
+    font-size: 20px;
+    font-family: TunnelBlvd;
+    margin-right: 40px;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+
+
+@font-face{
+    font-family: TunnelBlvd;
+    src: url(../../fonts/DidYouKnowTunnel.ttf);
 }

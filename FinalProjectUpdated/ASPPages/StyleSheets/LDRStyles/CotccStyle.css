@@ -2,7 +2,8 @@
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
-    font-family: FineLine;
+    font-family: COTCC;
+    font-style: italic;
 }
 
 .container1 {
@@ -18,7 +19,7 @@
     direction: rtl;
     font-size: 30px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 img {
@@ -27,13 +28,18 @@ img {
     width: 450px;
     margin-left: 100px;
     margin-bottom: 70px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 30px;
+    font-family: COTCC;
     margin-right: 85px;
-    margin-top: 20px;
+    margin-top: 60px;
+}
+
+@font-face{
+    font-family: COTCC;
+    src: url(../../fonts/cotcc.ttf);
 }

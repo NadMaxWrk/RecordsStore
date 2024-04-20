@@ -2,7 +2,8 @@
     text-align: center;
     margin-top: 50px;
     font-size: 55px;
-    font-family: FineLine;
+    font-family: Honeymoon;
+    color: #00316b;
 }
 
 .container1 {
@@ -32,8 +33,15 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 25px;
-    font-family: FineLine;
+    font-size: 28px;
+    font-family: Honeymoon;
     margin-right: 85px;
     margin-top: 30px;
+    color: #9f0713;
+    letter-spacing: 2px;
+}
+
+@font-face{
+    font-family: Honeymoon;
+    src: url(../../fonts/Honeymoon.otf);
 }

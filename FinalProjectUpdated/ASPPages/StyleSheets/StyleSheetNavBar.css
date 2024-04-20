@@ -17,6 +17,8 @@ font-family: Arial;
 overflow: hidden;
 background-color: black ;
 font-family: Arial;
+direction: rtl;
+
 }
 
 .navbar a {
@@ -27,7 +29,6 @@ font-family: Arial;
     padding: 14px 20px;
     text-decoration: none;
     transition: background-color 0.3s;
-    direction:rtl;
 }
 
     .navbar a:hover {
@@ -51,6 +52,7 @@ font-family: Arial;
     margin: 0;
     cursor: pointer;
     transition: background-color 0.3s;
+    direction:rtl
 }
 
 .dropdown-content {
@@ -61,6 +63,7 @@ min-width: 160px;
 z-index: 1;
 border-radius: 5px; /* Rounded corners for dropdown */
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Box shadow for dropdown */
+direction:rtl;
 }
 
 .dropdown-content a {

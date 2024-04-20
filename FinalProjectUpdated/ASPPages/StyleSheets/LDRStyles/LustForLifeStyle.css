@@ -1,8 +1,9 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    font-size: 75px;
+    font-family: LustForLife;
+    color: #ac060f;
 }
 
 .container1 {
@@ -33,7 +34,13 @@ img {
 .tracklist {
     text-align: center;
     font-size: 25px;
-    font-family: FineLine;
+    font-family: LustForLife;
     margin-right: 85px;
     margin-top: 20px;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: LustForLife;
+    src: url(../../fonts/LustForLife.ttf);
 }

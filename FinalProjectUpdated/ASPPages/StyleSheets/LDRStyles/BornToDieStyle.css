@@ -1,8 +1,10 @@
 ﻿h1 {
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
-    font-family: FineLine;
+    font-size: 80px;
+    font-family: BornToDie;
+    font-weight: 500;
+    color: #6d8fb8;
 }
 
 .container1 {
@@ -33,7 +35,13 @@ img {
 .tracklist {
     text-align: center;
     font-size: 25px;
-    font-family: FineLine;
+    font-family: BornToDie;
     margin-right: 85px;
     margin-top: 20px;
+
+}
+
+@font-face{
+    font-family: BornToDie;
+    src: url(../../fonts/BornToDie.otf);
 }

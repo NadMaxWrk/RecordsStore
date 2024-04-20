@@ -130,6 +130,7 @@
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
+    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HMHASStyle.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\WWAFAWDWGstyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\FineLineStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
@@ -420,6 +421,16 @@
     <Content Include="ASPPages\fonts\SpeakNowTracklist.otf" />
     <Content Include="ASPPages\fonts\TTPD.ttf" />
     <Content Include="ASPPages\fonts\TaylorDebut.ttf" />
+    <Content Include="ASPPages\fonts\DidYouKnowTunnel.ttf" />
+    <Content Include="ASPPages\fonts\Ultraviolence.ttf" />
+    <Content Include="ASPPages\fonts\LustForLife.ttf" />
+    <Content Include="ASPPages\fonts\cotcc.ttf" />
+    <Content Include="ASPPages\fonts\Honeymoon.otf" />
+    <Content Include="ASPPages\fonts\BlueBanisters.ttf" />
+    <Content Include="ASPPages\fonts\NFR.ttf" />
+    <Content Include="ASPPages\fonts\NFRtracklist.ttf" />
+    <Content Include="ASPPages\fonts\BornToDie.otf" />
+    <Content Include="ASPPages\fonts\HitMeHardAndSoft.otf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -428,7 +439,13 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ASPPages\Genres\Alternative\" />
+    <Folder Include="ASPPages\Genres\Country\" />
+    <Folder Include="ASPPages\Genres\Folk Indie\" />
+    <Folder Include="ASPPages\Genres\Pop\" />
+    <Folder Include="ASPPages\Genres\Rock\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

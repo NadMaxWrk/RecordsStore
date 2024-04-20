@@ -79,7 +79,7 @@
             </div>
 
         </div>
-        <div class="image-container single-image">
+        <div class=" single-image">
             <a href="TaylorAlbums/TTPD.aspx">
                 <img src="../../pictures/TTPD.jpg" />
             </a>

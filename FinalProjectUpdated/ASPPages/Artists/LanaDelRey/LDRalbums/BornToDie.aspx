@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-                    <h1> Born To Die (Deluxe Version) </h1>
+                    <h1> BORN TO DIE  </h1>
 <div class="container1">
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
@@ -19,21 +19,22 @@
 
 
     <p class="tracklist">
-         Born To Die <br />
-         Off To The Races<br />
-         Blue Jeans<br />
-         Video Games<br />
-         Diet Mountain Dew<br />
-         National Anthem<br />
-         Dark Paradise<br />
-         Radio<br />
-         Carmen<br />
-         Million Dollar Man<br />
-         Summertime Sadness<br />
-         This Is What Makes Us Girls<br />
-         Without You<br />
-         Lolita<br />
-         Lucky Ones<br />
+        BORN TO DIE <br />
+        OFF TO THE RACES<br />
+        BLUE JEANS<br />
+        VIDEO GAMES<br />
+        DIET MOUNTAIN DEW<br />
+        NATIONAL ANTHEM<br />
+        DARK PARADISE<br />
+        RADIO<br />
+        CARMEN<br />
+        MILLION DOLLAR MAN<br />
+        SUMMERTIME SADNESS<br />
+        THIS IS WHAT MAKES US GIRLS<br />
+        WITHOUT YOU<br />
+        LOLITA<br />
+        LUCKY ONES<br />
+
     </p>
 
 
