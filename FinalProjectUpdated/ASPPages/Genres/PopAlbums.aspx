@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="PopAlbums.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Genres.PopAlbums" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../StyleSheets/Genres/PopStyle.css" rel="stylesheet" />
+    <link href="../StyleSheets/Genres/Pop.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1> אלבומי פופ</h1>
     <div class="container">
     <div class="image-container">
         <div>

@@ -137,7 +137,11 @@
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HMHASStyle.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\WWAFAWDWGstyle.css" />
-    <Content Include="ASPPages\StyleSheets\Genres\PopStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Genres\Alternative.css" />
+    <Content Include="ASPPages\StyleSheets\Genres\Country.css" />
+    <Content Include="ASPPages\StyleSheets\Genres\Rock.css" />
+    <Content Include="ASPPages\StyleSheets\Genres\IndieFolk.css" />
+    <Content Include="ASPPages\StyleSheets\Genres\Pop.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\FineLineStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
     <Content Include="ASPPages\StyleSheets\HsStyles\HarryStylesStyle.css" />

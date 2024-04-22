@@ -1,6 +1,11 @@
 ﻿body, html {
-    height: 100%;
+    height: 90%;
     margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
 }
 
 .container {
@@ -15,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
     .image-container img {
