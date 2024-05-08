@@ -35,7 +35,7 @@ img {
     text-align: center;
     font-size: 37px;
     font-family: REPTracklist;
-    margin-right: 85px;
+    margin-right: 10px;
     margin-top: 20px;
     direction: ltr;
     font-weight: 200;
@@ -52,4 +52,11 @@ img {
 @font-face {
     font-family: REPTracklist;
     src: url(../../fonts/RepTracklist.ttf);
+}
+
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

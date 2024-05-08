@@ -34,11 +34,17 @@ img {
     text-align: center;
     font-size: 25px;
     font-family: Calibri;
-    margin-right: 85px;
+    margin-right: 10px;
     margin-top: 20px;
 }
 
 @font-face{
     font-family: TSDebut;
     src: url(../../fonts/TaylorDebut.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

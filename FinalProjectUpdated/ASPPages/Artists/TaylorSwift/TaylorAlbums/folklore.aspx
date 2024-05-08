@@ -6,6 +6,7 @@
 
         <h1> folklore </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -15,7 +16,8 @@
         <br />
         <b>ז'אנרים: </b> אלטרנטבי, אינדי, פולק
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/K-a8s8OLBSE" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         the 1 <br />

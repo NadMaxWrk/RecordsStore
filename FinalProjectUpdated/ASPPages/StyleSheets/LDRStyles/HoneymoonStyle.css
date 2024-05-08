@@ -35,13 +35,19 @@ img {
     text-align: center;
     font-size: 28px;
     font-family: Honeymoon;
-    margin-right: 85px;
+    margin-right: 10px;
     margin-top: 30px;
-    color: #9f0713;
+    color: black;
     letter-spacing: 2px;
 }
 
 @font-face{
     font-family: Honeymoon;
     src: url(../../fonts/Honeymoon.otf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

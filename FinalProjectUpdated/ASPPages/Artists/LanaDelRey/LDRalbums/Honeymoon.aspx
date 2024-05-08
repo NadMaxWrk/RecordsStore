@@ -6,6 +6,7 @@
 
                         <h1> HONEYMOON </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
         <br />
@@ -15,6 +16,8 @@
         <br />
         <b>ז'אנרים: </b> אלטרנטיבי, פופ, אינדי
     </p>
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/O2VBFxt4zOM" allowfullscreen></iframe>
+        </div>
 
 
     <p class="tracklist">

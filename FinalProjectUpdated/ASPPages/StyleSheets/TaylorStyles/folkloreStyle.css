@@ -35,7 +35,7 @@ img {
     text-align: center;
     font-size: 30px;
     font-family: folklore;
-    margin-right: 110px;
+    margin-right: 40px;
     margin-top: 20px;
 }
 
@@ -45,3 +45,10 @@ img {
     font-family: folklore;
     src: url(../../fonts/folklore.ttf);
 }
+
+iframe {
+    text-align: right;
+    margin-top: 120px;
+    margin-right: 55px;
+}
+

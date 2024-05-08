@@ -6,6 +6,7 @@
 
                         <h1> Did you know that there's a tunnel under Ocean Blvd </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
         <br />
@@ -15,7 +16,8 @@
         <br />
         <b>ז'אנרים: </b> פופ, אלטרנטיבי/אינדי
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/IuY54A3bOmg" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
          The Grants <br />

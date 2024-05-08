@@ -35,7 +35,7 @@ img {
     text-align: center;
     font-size: 25px;
     font-family: LustForLife;
-    margin-right: 85px;
+    margin-right: 10px;
     margin-top: 20px;
     font-weight: 100;
 }
@@ -43,4 +43,10 @@ img {
 @font-face{
     font-family: LustForLife;
     src: url(../../fonts/LustForLife.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

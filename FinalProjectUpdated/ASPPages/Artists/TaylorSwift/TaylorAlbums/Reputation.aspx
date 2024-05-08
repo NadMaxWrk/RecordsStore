@@ -6,6 +6,7 @@
 
     <h1>reputation </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -15,7 +16,8 @@
         <br />
         <b>ז'אנרים: </b> פופ
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/tCXGJQYZ9JA" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         ...READY FOR IT? <br />

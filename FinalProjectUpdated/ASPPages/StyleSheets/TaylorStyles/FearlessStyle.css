@@ -3,8 +3,9 @@
     margin-top: 50px;
     font-size: 55px;
     font-family: Fearless;
-    color: burlywood;
+    color: #d2b48d;
     letter-spacing: 1px;
+    font-weight: 50;
 }
 
 .container1 {
@@ -34,9 +35,9 @@ img {
 
 .tracklist {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Fearless;
-    margin-right: 85px;
+    margin-right: 20px;
     margin-top: 20px;
     color: #b59050;
     letter-spacing: 2px;
@@ -45,4 +46,10 @@ img {
 @font-face{
     font-family: Fearless;
     src: url(../../fonts/fearless.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

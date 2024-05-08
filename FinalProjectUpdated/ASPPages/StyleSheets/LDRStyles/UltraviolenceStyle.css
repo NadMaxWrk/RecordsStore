@@ -36,7 +36,7 @@ img {
     text-align: center;
     font-size: 33px;
     font-family: Ultraviolence;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 20px;
     font-weight: 100;
     
@@ -45,4 +45,10 @@ img {
 @font-face{
     font-family: Ultraviolence;
     src: url(../../fonts/Ultraviolence.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

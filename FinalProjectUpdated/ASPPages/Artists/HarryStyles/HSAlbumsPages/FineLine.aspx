@@ -7,6 +7,7 @@
 
     <h1>FINE LINE </h1>
     <div class="container1">
+        <div>
         <p class="info">
             <b>שם האמן:</b> הארי סטיילס
             <br />
@@ -16,7 +17,8 @@
             <br />
             <b>ז'אנרים: </b> פופ, פופ רוק
         </p>
-
+        <iframe width="490" height="330" src="https://www.youtube.com/embed/VF-r5TtlT9w" allowfullscreen></iframe>
+            </div>
 
         <p class="tracklist">
             GOLDEN <br />

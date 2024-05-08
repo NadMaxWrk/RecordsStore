@@ -7,6 +7,7 @@
 
      <h1>Happier Than Ever</h1>
  <div class="container1">
+     <div>
      <p class="info">
          <b>שם האמן:</b> בילי אייליש
          <br />
@@ -16,7 +17,8 @@
          <br />
          <b>ז'אנרים: </b> רוק אלטרנטיבי, פופ רוק
      </p>
-
+     <iframe width="490" height="330" src="https://www.youtube.com/embed/5GJWxDKyk3A" allowfullscreen></iframe>
+         </div>
 
      <p class="tracklist">
          Getting Older <br />
@@ -32,7 +34,7 @@
          Everybody Dies <br />
          Your Power <br />
          NDA <br />
-         Therdore I Am <br />
+         Therfore I Am <br />
          Happier Than Ever <br />
          Male Fantasy <br />
 

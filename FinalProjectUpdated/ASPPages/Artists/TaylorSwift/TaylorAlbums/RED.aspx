@@ -7,6 +7,7 @@
 
      <h1>RED (TAYLOR'S VERSION) </h1>
  <div class="container1">
+     <div>
      <p class="info">
          <b>שם האמן:</b> טיילור סוויפט
          <br />
@@ -16,7 +17,8 @@
          <br />
          <b>ז'אנרים: </b> פופ
      </p>
-
+     <iframe width="490" height="330" src="https://www.youtube.com/embed/tollGa3S0o8?"></iframe>
+         </div>
 
      <p class="tracklist">
         STATE OF GRACE (TAYLOR'S VERSION) <br />

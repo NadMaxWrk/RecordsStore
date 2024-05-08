@@ -7,6 +7,7 @@
 
                 <h1> Midnights (3am Edition) </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -16,7 +17,8 @@
         <br />
         <b>ז'אנרים: </b> סינת' פופ, פופ
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/b1kbLwvqugk" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         Lavender Haze <br />

@@ -36,11 +36,17 @@ img {
     text-align: center;
     font-size: 40px;
     font-family: HarrysHouse;
-    margin-right: 85px;
+    margin-right: 5px;
     margin-top: 20px;
 }
 
 @font-face{
     font-family: HarrysHouse;
     src: url(../../fonts/HarrysHouse.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 55px;
 }

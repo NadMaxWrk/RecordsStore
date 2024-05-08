@@ -67,9 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database1.mdf" />
-    <Content Include="App_Data\Database1_log.ldf">
-      <DependentUpon>Database1.mdf</DependentUpon>
+    <Content Include="App_Data\RecordsStoreDB.mdf" />
+    <Content Include="App_Data\RecordsStoreDB_log.ldf">
+      <DependentUpon>RecordsStoreDB.mdf</DependentUpon>
     </Content>
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx" />
@@ -133,6 +133,7 @@
     <Content Include="ASPPages\pictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\ShowData.aspx" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HMHASStyle.css" />
@@ -175,6 +176,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\Helper.cs" />
     <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx.cs">
       <DependentUpon>HMHAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -440,6 +442,13 @@
     </Compile>
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx.designer.cs">
       <DependentUpon>TaylorSwiftAlbumsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASPPages\ShowData.aspx.cs">
+      <DependentUpon>ShowData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\ShowData.aspx.designer.cs">
+      <DependentUpon>ShowData.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

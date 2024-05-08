@@ -38,8 +38,8 @@ img {
     font-size: 25px;
     font-family: tracklist;
     font-style: italic;
-    margin-right: 85px;
-    margin-top: 20px;
+    margin-right: 10px;
+    margin-top: 50px;
 }
 
 @font-face{
@@ -50,4 +50,11 @@ img {
 @font-face{
     font-family: tracklist;
     src: url(../../fonts/HappierThanEverTracklist.ttf);
+}
+
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

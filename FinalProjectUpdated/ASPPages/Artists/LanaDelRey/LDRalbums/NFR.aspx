@@ -4,8 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-                        <h1> NFR! </h1>
+                        <h1> Norman Fucking Rockwell! </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
         <br />
@@ -15,7 +16,8 @@
         <br />
         <b>ז'אנרים: </b> אלטרנטיבי, רוק
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/soRjcajliHE"></iframe>
+        </div>
 
     <p class="tracklist">
          Norman Fucking Rockwell <br />

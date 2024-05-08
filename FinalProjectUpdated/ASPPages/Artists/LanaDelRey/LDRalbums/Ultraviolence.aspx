@@ -6,6 +6,7 @@
 
                         <h1>Ultraviolence </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
         <br />
@@ -15,7 +16,8 @@
         <br />
         <b>ז'אנרים: </b> אינדי, אלטרנטיבי, פופ, רוק
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/oKxuiw3iMBE" allowfullscreen></iframe>
+        </div>
     
     <p class="tracklist">
          Cruel World <br />

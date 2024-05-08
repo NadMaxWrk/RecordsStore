@@ -36,7 +36,7 @@ img {
     text-align: center;
     font-size: 22px;
     font-family: SpeakNowTracklist;
-    margin-right: 85px;
+    margin-right: 10px;
 }
 
 @font-face{
@@ -47,4 +47,11 @@ img {
 @font-face{
     font-family: SpeakNowTracklist;
     src: url(../../fonts/SpeakNowTracklist.otf);
+}
+
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

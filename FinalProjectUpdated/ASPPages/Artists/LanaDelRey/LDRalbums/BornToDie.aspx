@@ -7,6 +7,7 @@
 
                     <h1> BORN TO DIE  </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> לנה דל ריי
         <br />
@@ -16,7 +17,8 @@
         <br />
         <b>ז'אנרים: </b> פופ, פופ אלטרנטיבי
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/TdrL3QxjyVw" allowfullscreen></iframe>
+        </div>  
 
     <p class="tracklist">
         BORN TO DIE <br />

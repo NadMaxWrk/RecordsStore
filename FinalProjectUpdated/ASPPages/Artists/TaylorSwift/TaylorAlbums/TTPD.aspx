@@ -8,15 +8,21 @@
 
                 <h1> THE TORTURED POETS DEPARTMENT </h1>
 <div class="container1">
-    <p class="info">
-        <b>שם האמן:</b> טיילור סוויפט
+    <div>
+        <p class="info">
+            <b>שם האמן:</b> טיילור סוויפט
         <br />
-        <b>תאריך הוצאה:</b> 19/4/2024
+            <b>תאריך הוצאה:</b> 19/4/2024
         <br />
-        <b>לייבל: </b> Republic Records 
+            <b>לייבל: </b>Republic Records 
         <br />
-        <b>ז'אנרים: </b> סינת' פופ, פופ
-    </p>
+            <b>ז'אנרים: </b>סינת' פופ, פופ
+        </p>
+        
+            <iframe width="490" height="330" allowfullscreen
+                src="https://www.youtube.com/embed/q3zqJs7JUCQ"></iframe>
+       
+    </div>
 
 
     <p class="tracklist">
@@ -42,6 +48,9 @@
 
     <img src="../../../pictures/TTPD.jpg" />
 
+    
 </div>
+
+
 
 </asp:Content>

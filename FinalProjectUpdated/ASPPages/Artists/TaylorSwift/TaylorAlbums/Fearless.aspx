@@ -5,6 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
             <h1>FEARLESS (TAYLOR'S VERSION) </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -14,7 +15,8 @@
         <br />
         <b>ז'אנרים: </b> קאנטרי, פופ
     </p>
-
+    <iframe width="490" height="330" src="https://www.youtube.com/embed/VuNIsY6JdUw? " allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         Fearless (Taylor’s Version)  <br />
@@ -48,7 +50,6 @@
     </p>
 
     <img src="../../../pictures/fearless.jpg" />
-
 
 </div>
 </asp:Content>

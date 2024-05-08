@@ -35,11 +35,17 @@ img {
     text-align: center;
     font-size: 25px;
     font-family: Arial;
-    margin-right: 85px;
+    margin-right: 5px;
     margin-top: 70px;
 }
 
 @font-face{
     font-family: WhenWeAllFallAsleep;
     src: url(../../fonts/Whenweallfallasleep-Regular.ttf);
+}
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }

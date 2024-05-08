@@ -7,6 +7,7 @@
 
     <h1>Speak Now (Taylor's Version) </h1>
     <div class="container1">
+        <div>
         <p class="info">
             <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -16,7 +17,8 @@
         <br />
             <b>ז'אנרים: </b>קאנטרי, פופ
         </p>
-
+        <iframe width="490" height="330" src="https://www.youtube.com/embed/lVkKLf4DCn8 " allowfullscreen></iframe>
+            </div>
 
         <p class="tracklist">
             Mine (Taylor's Version) <br />

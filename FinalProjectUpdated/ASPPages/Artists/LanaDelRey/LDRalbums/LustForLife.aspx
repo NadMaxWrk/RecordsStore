@@ -6,15 +6,18 @@
     
                         <h1>Lust For Life </h1>
 <div class="container1">
-    <p class="info">
-        <b>שם האמן:</b> לנה דל ריי
+    <div>
+        <p class="info">
+            <b>שם האמן:</b> לנה דל ריי
         <br />
-        <b>תאריך הוצאה:</b> 21/6/2017
+            <b>תאריך הוצאה:</b> 21/6/2017
         <br />
-        <b>לייבל: </b> Interscope Records 
+            <b>לייבל: </b>Interscope Records 
         <br />
-        <b>ז'אנרים: </b> פופ, פולק
-    </p>
+            <b>ז'אנרים: </b>פופ, פולק
+        </p>
+        <iframe width="490" height="330" src="https://www.youtube.com/embed/eP4eqhWc7sI" allowfullscreen></iframe>
+    </div>
 
 
     <p class="tracklist">

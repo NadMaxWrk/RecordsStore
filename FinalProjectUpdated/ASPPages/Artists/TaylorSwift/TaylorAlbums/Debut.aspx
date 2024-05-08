@@ -5,6 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <h1>Taylor Swift </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> טיילור סוויפט
         <br />
@@ -14,7 +15,8 @@
         <br />
         <b>ז'אנרים: </b> קאנטרי
     </p>
-
+<iframe width="490" height="330" src="https://www.youtube.com/embed/Jb2stN7kH28" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         Tim McGraw <br />
