@@ -1,12 +1,13 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FinalProjectUpdated.ASPPages.MasterPage" %>
-<link href="<%= ResolveUrl("~/ASPPages/StyleSheets/StyleSheetNavBar.css") %>" rel="stylesheet" />  
+
+<link href="<%= ResolveUrl("~/ASPPages/StyleSheets/StyleSheetNavBar.css") %>" rel="stylesheet" />
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title>The Records Store!</title>
-    
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,43 +15,44 @@
     <form id="form1" runat="server">
         <div>
             <div class="navbar">
-    <a href="<%= ResolveUrl("~/ASPPages/HomePage.aspx") %>">בית</a>
-    <div class="dropdown">
-        <button class="dropbtn">
-        אמנים
-        </button>
-         <div  class="dropdown-content">
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>" >טיילור סוויפט</a>
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>"> הארי סטיילס</a>
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
-             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">
-            ז'אנרים
+                <a href="<%= ResolveUrl("~/ASPPages/HomePage.aspx") %>">בית</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        אמנים
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>">טיילור סוויפט</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>">הארי סטיילס</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        ז'אנרים
             <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
-            <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
-            <a href="<%= ResolveUrl("~/ASPPages/Genres/CountryAlbums.aspx") %>">קאנטרי</a>
-            <a href="<%= ResolveUrl("~/ASPPages/Genres/IndieFolkAlbums.aspx") %>">אינדי/פולק</a>
-            <a href="<%= ResolveUrl("~/ASPPages/Genres/AlternativeAlbums.aspx") %>">אלטרנטיבי</a>
-        </div>
-    </div>
-     <div class="dropdown">
-     <button class="dropbtn">
-         טפסים
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Genres/CountryAlbums.aspx") %>">קאנטרי</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Genres/IndieFolkAlbums.aspx") %>">אינדי/פולק</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Genres/AlternativeAlbums.aspx") %>">אלטרנטיבי</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        טפסים
          <i class="fa fa-caret-down"></i>
-     </button>
-     <div class="dropdown-content">
-         <a href="<%= ResolveUrl("~/ASPPages/FormPage.aspx") %>">טופס הרשמה</a>
-         <a href="<%= ResolveUrl("~/ASPPages/LogIn.aspx") %>">התחברות</a>
-         
-     </div>
-     </div>
-</div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="<%= ResolveUrl("~/ASPPages/FormPage.aspx") %>">טופס הרשמה</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/LogIn.aspx") %>">התחברות</a>
+
+                    </div>
+                </div>
+                <a href="<%= ResolveUrl("~/ASPPages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
+            </div>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
