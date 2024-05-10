@@ -8,35 +8,35 @@
         <div class="image-container">
             <div>
                 <a href="TaylorAlbums/Debut.aspx">
-                    <img src="../../pictures/TaylorSwift.jpg" />
+                    <img src="../../pictures/AlbumsPictures/TaylorSwift.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Taylor Swift </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/Fearless.aspx">
-                    <img src="../../pictures/fearless.jpg" />
+                    <img src="../../pictures/AlbumsPictures/fearless.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Fearless (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/SpeakNow.aspx">
-                    <img src="../../pictures/SpeakNow.jpg" />
+                    <img src="../../pictures/AlbumsPictures/SpeakNow.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Speak Now (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/RED.aspx">
-                    <img src="../../pictures/RED.jpg" />
+                    <img src="../../pictures/AlbumsPictures/RED.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Red (Taylor's Version) </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/1989.aspx">
-                    <img src="../../pictures/1989.jpg" />
+                    <img src="../../pictures/AlbumsPictures/1989.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">1989 (Taylor's Version) </div>
             </div>
@@ -45,35 +45,35 @@
         <div class="image-container">
             <div>
                 <a href="TaylorAlbums/Reputation.aspx">
-                    <img src="../../pictures/Reputation.jpg" />
+                    <img src="../../pictures/AlbumsPictures/Reputation.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Reputation</div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/Lover.aspx">
-                    <img src="../../pictures/Lover.jpg" />
+                    <img src="../../pictures/AlbumsPictures/Lover.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Lover </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/folklore.aspx">
-                    <img src="../../pictures/folklore.jpg" />
+                    <img src="../../pictures/AlbumsPictures/folklore.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">folklore</div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/evermore.aspx">
-                    <img src="../../pictures/evermore.jpg" />
+                    <img src="../../pictures/AlbumsPictures/evermore.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">evermore </div>
             </div>
 
             <div>
                 <a href="TaylorAlbums/Midnights.aspx">
-                    <img src="../../pictures/Midnights3am.jpg" />
+                    <img src="../../pictures/AlbumsPictures/Midnights3am.jpg" />
                 </a>
                 <div style="text-align:center; font-family: Calibri;">Midnighs (3am Edition) </div>
             </div>
@@ -81,7 +81,7 @@
         </div>
         <div class=" single-image">
             <a href="TaylorAlbums/TTPD.aspx">
-                <img src="../../pictures/TTPD.jpg" />
+                <img src="../../pictures/AlbumsPictures/TTPD.jpg" />
             </a>
             <div style="text-align:center; font-family: Calibri;">THE TORTURED POETS DEPARTMENT </div>
         </div>

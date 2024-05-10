@@ -38,7 +38,7 @@
 
     </p>
 
-    <img src="../../../pictures/TaylorSwift.jpg" />
+    <img src="../../../pictures/AlbumsPictures/TaylorSwift.jpg" />
 
 
 </div>

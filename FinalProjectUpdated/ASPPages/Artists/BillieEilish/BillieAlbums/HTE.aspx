@@ -41,7 +41,7 @@
 
      </p>
 
-     <img src="../../../pictures/HappierThanEver.jpg" />
+     <img src="../../../pictures/AlbumsPictures/HappierThanEver.jpg" />
 
 
  </div>

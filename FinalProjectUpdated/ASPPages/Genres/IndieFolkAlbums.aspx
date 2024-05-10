@@ -10,42 +10,42 @@
     <div class="image-container">
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LDRalbums/LustForLife.aspx") %>">
-                <img src="../pictures/LustForLife.jpg" />
+                <img src="../pictures/AlbumsPictures/LustForLife.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">Lust For Life </div>
         </div>
 
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorAlbums/folklore.aspx") %>">
-                <img src="../pictures/folklore.jpg" />
+                <img src="../pictures/AlbumsPictures/folklore.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">folklore </div>
         </div>
 
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorAlbums/evermore.aspx") %>">
-                <img src="../pictures/evermore.jpg" />
+                <img src="../pictures/AlbumsPictures/evermore.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">evermore </div>
         </div>
 
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LDRalbums/BlueBanisters.aspx") %>">
-                <img src="../pictures/BlueBanisters.jpg" />
+                <img src="../pictures/AlbumsPictures/BlueBanisters.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">Blue Banisters </div>
         </div>
 
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LDRalbums/Honeymoon.aspx") %>">
-                <img src="../pictures/honeymoon.jpg" />
+                <img src="../pictures/AlbumsPictures/honeymoon.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">Honemoon </div>
         </div>
 
         <div>
             <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LDRalbums/Ultraviolence.aspx") %>">
-                <img src="../pictures/Ultraviolence.jpg" />
+                <img src="../pictures/AlbumsPictures/Ultraviolence.jpg" />
             </a>
             <div style="text-align: center; font-family: Calibri;">Ultraviolence </div>
         </div>

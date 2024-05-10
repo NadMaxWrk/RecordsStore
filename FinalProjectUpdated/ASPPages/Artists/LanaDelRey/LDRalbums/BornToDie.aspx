@@ -40,7 +40,7 @@
     </p>
 
 
-    <img src="../../../pictures/BornToDIe.jpg" />
+    <img src="../../../pictures/AlbumsPictures/BornToDIe.jpg" />
 
 </div>
 

@@ -53,7 +53,7 @@
         ALL TOO WELL (1O MINUTE VERSION) (TAYLOR'S VERSION) (FROM THE VAULT)<br />
      </p>
 
-     <img src="../../../pictures/RED.jpg" />
+     <img src="../../../pictures/AlbumsPictures/RED.jpg" />
 
  </div>
 

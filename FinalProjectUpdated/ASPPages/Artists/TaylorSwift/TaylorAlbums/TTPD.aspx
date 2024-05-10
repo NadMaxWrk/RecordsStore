@@ -46,7 +46,7 @@
         
     </p>
 
-    <img src="../../../pictures/TTPD.jpg" />
+    <img src="../../../pictures/AlbumsPictures/TTPD.jpg" />
 
     
 </div>

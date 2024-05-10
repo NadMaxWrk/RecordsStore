@@ -38,7 +38,7 @@
     </p>
 
 
-    <img src="../../../pictures/honeymoon.jpg" />
+    <img src="../../../pictures/AlbumsPictures/honeymoon.jpg" />
 
 </div>
 

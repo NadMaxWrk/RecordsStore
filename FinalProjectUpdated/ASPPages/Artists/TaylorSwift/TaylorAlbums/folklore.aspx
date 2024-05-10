@@ -39,7 +39,7 @@
         the lakes <br />
     </p>
 
-    <img src="../../../pictures/folklore.jpg" />
+    <img src="../../../pictures/AlbumsPictures/folklore.jpg" />
 
 </div>
 </asp:Content>

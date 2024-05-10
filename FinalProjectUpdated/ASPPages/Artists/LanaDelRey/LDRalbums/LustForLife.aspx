@@ -40,7 +40,7 @@
     </p>
 
 
-    <img src="../../../pictures/LustForLife.jpg" />
+    <img src="../../../pictures/AlbumsPictures/LustForLife.jpg" />
 
 
 </div>

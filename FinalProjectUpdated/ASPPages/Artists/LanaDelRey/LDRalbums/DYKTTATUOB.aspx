@@ -39,7 +39,7 @@
     </p>
 
 
-    <img src="../../../pictures/didyouknowtheresatunnel.jpg" />
+    <img src="../../../pictures/AlbumsPictures/didyouknowtheresatunnel.jpg" />
 
 </div>
 

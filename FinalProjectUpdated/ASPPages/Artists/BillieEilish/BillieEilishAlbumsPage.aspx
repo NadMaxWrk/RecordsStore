@@ -7,19 +7,19 @@
     <div class="container">
         <div class="image-container">
             <a href="BillieAlbums/WWAFAWDWG.aspx">
-                <img src="../../pictures/whenweallfallasleepwheredowego.jpg" />
+                <img src="../../pictures/AlbumsPictures/whenweallfallasleepwheredowego.jpg" />
             </a>
             <div class="caption">WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</div>
         </div>
         <div class="image-container">
             <a href="BillieAlbums/HTE.aspx">
-                <img src="../../pictures/HappierThanEver.jpg" />
+                <img src="../../pictures/AlbumsPictures/HappierThanEver.jpg" />
             </a>
             <div class="caption">Happier Than Ever</div>
         </div>
         <div class="image-container">
             <a href="BillieAlbums/HMHAS.aspx">
-                <img src="../../pictures/Lover.jpg" />
+                <img src="../../pictures/AlbumsPictures/Lover.jpg" />
             </a>
             <div class="caption">HIT ME HARD AND SOFT</div>
         </div>

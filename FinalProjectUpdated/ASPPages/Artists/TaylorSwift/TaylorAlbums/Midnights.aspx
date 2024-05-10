@@ -43,7 +43,7 @@
         Dear Reader <br />
     </p>
 
-    <img src="../../../pictures/Midnights3am.jpg" />
+    <img src="../../../pictures/AlbumsPictures/Midnights3am.jpg" />
 
 </div>
 

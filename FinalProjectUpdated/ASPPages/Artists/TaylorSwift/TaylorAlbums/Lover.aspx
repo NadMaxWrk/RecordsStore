@@ -42,7 +42,7 @@
         DAYLIGHT <br />
     </p>
 
-    <img src="../../../pictures/Lover.jpg" />
+    <img src="../../../pictures/AlbumsPictures/Lover.jpg" />
 
 </div>
 </asp:Content>

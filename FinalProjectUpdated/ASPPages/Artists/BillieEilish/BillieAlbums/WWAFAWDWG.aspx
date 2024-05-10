@@ -39,7 +39,7 @@
 
     </p>
 
-    <img src="../../../pictures/whenweallfallasleepwheredowego.jpg" />
+    <img src="../../../pictures/AlbumsPictures/whenweallfallasleepwheredowego.jpg" />
 
 
 </div>

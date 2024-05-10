@@ -46,7 +46,7 @@
         Is It Over Now? (Taylor’s Version) (From the Vault) <br />
      </p>
 
-     <img src="../../../pictures/1989.jpg" />
+     <img src="../../../pictures/AlbumsPictures/1989.jpg" />
 
 
  </div>

@@ -37,7 +37,7 @@
         NEW YEAR'S DAY <br />
     </p>
 
-    <img src="../../../pictures/Reputation.jpg" />
+    <img src="../../../pictures/AlbumsPictures/Reputation.jpg" />
 
 </div>
 </asp:Content>

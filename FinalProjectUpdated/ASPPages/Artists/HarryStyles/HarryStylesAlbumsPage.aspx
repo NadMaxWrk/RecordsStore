@@ -8,19 +8,19 @@
     <div class="container">
         <div class="image-container">
             <a href="HSAlbumsPages/HS.aspx">
-                <img src="../../pictures/HarryStyles-albumcover.png" />
+                <img src="../../pictures/AlbumsPictures/HarryStyles-albumcover.png" />
             </a>
             <div class="caption">Harry Styles</div>
         </div>
         <div class="image-container">
             <a href="HSAlbumsPages/FineLine.aspx">
-                <img src="../../pictures/FineLine.jpg" />
+                <img src="../../pictures/AlbumsPictures/FineLine.jpg" />
             </a>
             <div class="caption">Fine Line</div>
         </div>
         <div class="image-container">
             <a href="HSAlbumsPages/HarrysHouse.aspx">
-                <img src="../../pictures/Harry'sHouse.jpg" />
+                <img src="../../pictures/AlbumsPictures/Harry'sHouse.jpg" />
             </a>
             <div class="caption">Harry's House</div>
         </div>

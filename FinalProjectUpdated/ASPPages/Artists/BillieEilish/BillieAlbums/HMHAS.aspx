@@ -32,8 +32,7 @@
 
     </p>
 
-
-    <img src="../../../pictures/HitMeHardandSoft.png" />
+    <img src="../../../pictures/AlbumsPictures/HMHAS.png" />
 
 </div>
 

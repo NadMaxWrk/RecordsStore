@@ -10,28 +10,28 @@
         <div class="image-container">
             <div>
                 <a href="LDRalbums/BornToDie.aspx">
-                    <img src="../../pictures/BornToDIe.jpg" />
+                    <img src="../../pictures/AlbumsPictures/BornToDIe.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Born To Die</div>
             </div>
 
             <div>
                 <a href="LDRalbums/Ultraviolence.aspx">
-                    <img src="../../pictures/Ultraviolence.jpg" />
+                    <img src="../../pictures/AlbumsPictures/Ultraviolence.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Ultraviolence</div>
             </div>
 
             <div>
                 <a href="LDRalbums/Honeymoon.aspx">
-                    <img src="../../pictures/honeymoon.jpg" />
+                    <img src="../../pictures/AlbumsPictures/honeymoon.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Honeymoon</div>
             </div>
 
             <div>
                 <a href="LDRalbums/LustForLife.aspx">
-                    <img src="../../pictures/LustForLife.jpg" />
+                    <img src="../../pictures/AlbumsPictures/LustForLife.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Lust For Life</div>
             </div>
@@ -40,28 +40,28 @@
         <div class="image-container">
             <div>
                 <a href="LDRalbums/NFR.aspx">
-                    <img src="../../pictures/NFR.jpg" />
+                    <img src="../../pictures/AlbumsPictures/NFR.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Norman Fucking Rockwell!</div>
             </div>
 
             <div>
                 <a href="LDRalbums/COTCC.aspx">
-                    <img src="../../pictures/COTCC.jpg" />
+                    <img src="../../pictures/AlbumsPictures/COTCC.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Chemtrails Over The Country Club</div>
             </div>
 
             <div>
                 <a href="LDRalbums/BlueBanisters.aspx">
-                    <img style="border: solid; border-color: black;" src="../../pictures/BlueBanisters.jpg" />
+                    <img style="border: solid; border-color: black;" src="../../pictures/AlbumsPictures/BlueBanisters.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Blue Banisters</div>
             </div>
 
             <div>
                 <a href="LDRalbums/DYKTTATUOB.aspx">
-                    <img src="../../pictures/didyouknowtheresatunnel.jpg" />
+                    <img src="../../pictures/AlbumsPictures/didyouknowtheresatunnel.jpg" />
                 </a>
                 <div style="text-align: center; font-family: Calibri;">Did you know that there's <br /> a tunnel under ocean blvd</div>
             </div>

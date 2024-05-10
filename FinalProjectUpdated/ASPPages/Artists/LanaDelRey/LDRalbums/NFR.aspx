@@ -37,7 +37,7 @@
     </p>
 
 
-    <img src="../../../pictures/NFR.jpg" />
+    <img src="../../../pictures/AlbumsPictures/NFR.jpg" />
 
 </div>
 

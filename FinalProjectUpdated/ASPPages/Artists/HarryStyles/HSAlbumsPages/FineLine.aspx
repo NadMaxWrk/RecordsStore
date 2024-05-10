@@ -35,7 +35,7 @@
             FINE LINE <br />
         </p>
 
-        <img src="../../../pictures/FineLine.jpg" />
+        <img src="../../../pictures/AlbumsPictures/FineLine.jpg" />
 
 
     </div>

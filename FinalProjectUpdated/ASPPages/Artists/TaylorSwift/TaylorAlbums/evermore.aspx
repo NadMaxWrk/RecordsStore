@@ -40,7 +40,7 @@
         it's time to go <br />
     </p>
 
-    <img src="../../../pictures/evermore.jpg" />
+    <img src="../../../pictures/AlbumsPictures/evermore.jpg" />
 
 </div>
 

@@ -46,7 +46,7 @@
         </p>
 
 
-        <img src="../../../pictures/SpeakNow.jpg" />
+        <img src="../../../pictures/AlbumsPictures/SpeakNow.jpg" />
 
 
 

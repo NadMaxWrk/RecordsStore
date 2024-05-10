@@ -49,7 +49,7 @@
 
     </p>
 
-    <img src="../../../pictures/fearless.jpg" />
+    <img src="../../../pictures/AlbumsPictures/fearless.jpg" />
 
 </div>
 </asp:Content>

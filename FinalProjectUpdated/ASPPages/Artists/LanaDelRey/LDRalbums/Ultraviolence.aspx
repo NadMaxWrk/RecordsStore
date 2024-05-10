@@ -36,7 +36,7 @@
          Florida Kilos<br />
     </p>
 
-    <img src="../../../pictures/Ultraviolence.jpg" />
+    <img src="../../../pictures/AlbumsPictures/Ultraviolence.jpg" />
 
 
 </div>

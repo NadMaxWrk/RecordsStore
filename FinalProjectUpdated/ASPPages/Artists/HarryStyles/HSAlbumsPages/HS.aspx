@@ -34,7 +34,7 @@
         From the Dining Table <br />
     </p>
 
-    <img src="../../../pictures/HarryStyles-albumcover.png" />
+    <img src="../../../pictures/AlbumsPictures/HarryStyles-albumcover.png" />
 
 
 </div>

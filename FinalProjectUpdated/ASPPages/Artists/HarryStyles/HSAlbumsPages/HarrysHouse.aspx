@@ -34,7 +34,7 @@
      </p>
 
 
-     <img src="../../../pictures/Harry'sHouse.jpg" />
+     <img src="../../../pictures/AlbumsPictures/Harry'sHouse.jpg" />
 
  </div>
 

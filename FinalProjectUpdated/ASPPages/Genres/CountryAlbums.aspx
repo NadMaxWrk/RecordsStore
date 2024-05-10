@@ -9,21 +9,21 @@
      <div class="image-container">
          <div>
              <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorAlbums/Debut.aspx") %>">
-                 <img src="../pictures/TaylorSwift.jpg" />
+                 <img src="../pictures/AlbumsPictures/TaylorSwift.jpg" />
              </a>
              <div style="text-align: center; font-family: Calibri;">Taylor swift </div>
          </div>
 
          <div>
              <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorAlbums/Fearless.aspx") %>">
-                 <img src="../pictures/fearless.jpg" />
+                 <img src="../pictures/AlbumsPictures/fearless.jpg" />
              </a>
              <div style="text-align: center; font-family: Calibri;">Fearless (Taylor's Version) </div>
          </div>
 
          <div>
              <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorAlbums/SpeakNow.aspx") %>">
-                 <img src="../pictures/SpeakNow.jpg" />
+                 <img src="../pictures/AlbumsPictures/SpeakNow.jpg" />
              </a>
              <div style="text-align: center; font-family: Calibri;">Speak Now (Taylor's Version) </div>
          </div>
