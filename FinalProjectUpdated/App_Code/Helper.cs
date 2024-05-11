@@ -71,9 +71,14 @@ public class Helper
         // return the number of rows affected
         return n;
     }
-
+    
+    /// <summary>
+    /// the Method Build HTML user Table using the users in the DataTable dt.
+    /// </summary>
+    /// <param name="dt"></param>
+    /// <param name="columnHeaders"></param>
+    /// <returns> an html string representing the table data</returns>
     public static string BuildSimpleTable(DataTable dt, string[] columnHeaders)
-    // the Method Build HTML user Table using the users in the DataTable dt.
     {
         string str = "<table style='text-align: center; direction: rtl; margin: 0 auto; border-collapse: collapse; margin-top: 40px; '>";
         str += "<tr>";

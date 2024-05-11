@@ -99,16 +99,16 @@
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx" />
-    <Content Include="ASPPages\FormPage.aspx" />
+    <Content Include="ASPPages\Pages\FormPage.aspx" />
     <Content Include="ASPPages\Genres\AlternativeAlbums.aspx" />
     <Content Include="ASPPages\Genres\CountryAlbums.aspx" />
     <Content Include="ASPPages\Genres\IndieFolkAlbums.aspx" />
     <Content Include="ASPPages\Genres\PopAlbums.aspx" />
     <Content Include="ASPPages\Genres\RockAlbums.aspx" />
-    <Content Include="ASPPages\HomePage.aspx" />
+    <Content Include="ASPPages\Pages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
-    <Content Include="ASPPages\LogIn.aspx" />
+    <Content Include="ASPPages\Pages\LogIn.aspx" />
     <Content Include="ASPPages\pictures\AlbumsPictures\1989.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\Billie_Eilish_-_Hit_Me_Hard_and_Soft.png" />
     <Content Include="ASPPages\pictures\AlbumsPictures\BlueBanisters.jpg" />
@@ -139,46 +139,47 @@
     <Content Include="ASPPages\pictures\ArtistsPictures\LanaPic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\HarryPic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\TaylorPic.jpg" />
-    <Content Include="ASPPages\ShowData.aspx" />
-    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
-    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HMHASStyle.css" />
-    <Content Include="ASPPages\StyleSheets\BillieEilishStyles\WWAFAWDWGstyle.css" />
+    <Content Include="ASPPages\Pages\ShowData.aspx" />
+    <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\BillieAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\HappierThanEverStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\HMHASStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\WWAFAWDWGstyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\AllArtistrs.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Alternative.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Country.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Rock.css" />
     <Content Include="ASPPages\StyleSheets\Genres\IndieFolk.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Pop.css" />
-    <Content Include="ASPPages\StyleSheets\HsStyles\FineLineStyle.css" />
-    <Content Include="ASPPages\StyleSheets\HsStyles\HarrysHouseStyle.css" />
-    <Content Include="ASPPages\StyleSheets\HsStyles\HarryStylesStyle.css" />
-    <Content Include="ASPPages\StyleSheets\HsStyles\HSAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\BlueBanistersStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\BornToDieStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\CotccStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\HoneymoonStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\LDRalbums.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\LustForLifeStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\NFRStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\TunnelStyle.css" />
-    <Content Include="ASPPages\StyleSheets\LDRStyles\UltraviolenceStyle.css" />
-    <Content Include="ASPPages\StyleSheets\StyleSheetForm.css" />
-    <Content Include="ASPPages\StyleSheets\StyleSheetNavBar.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\HsStyles\FineLineStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\HsStyles\HarrysHouseStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\HsStyles\HarryStylesStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\HsStyles\HSAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\BlueBanistersStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\BornToDieStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\CotccStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\HoneymoonStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\LDRalbums.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\LustForLifeStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\NFRStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\TunnelStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\LDRStyles\UltraviolenceStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Pages\StyleSheetForm.css" />
+    <Content Include="ASPPages\StyleSheets\Pages\StyleSheetNavBar.css" />
     <Content Include="ASPPages\JavaScriptFiles\Utils.js" />
-    <Content Include="ASPPages\StyleSheets\StyleSheetHomePage.css" />
+    <Content Include="ASPPages\StyleSheets\Pages\StyleSheetHomePage.css" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\1989Style.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\evermoreStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\FearlessStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\folkloreStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\LoverStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\MidnightsStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\RedStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\RepStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\SpeakNowStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\TaylorAlbums.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\TaylorSwiftStyle.css" />
-    <Content Include="ASPPages\StyleSheets\TaylorStyles\TTPDStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\1989Style.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\evermoreStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\FearlessStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\folkloreStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\LoverStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\MidnightsStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\RedStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\RepStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\SpeakNowStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TaylorAlbums.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TaylorSwiftStyle.css" />
+    <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TTPDStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -379,11 +380,11 @@
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx.designer.cs">
       <DependentUpon>TTPD.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\FormPage.aspx.cs">
+    <Compile Include="ASPPages\Pages\FormPage.aspx.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\FormPage.aspx.designer.cs">
+    <Compile Include="ASPPages\Pages\FormPage.aspx.designer.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Genres\AlternativeAlbums.aspx.cs">
@@ -421,11 +422,11 @@
     <Compile Include="ASPPages\Genres\RockAlbums.aspx.designer.cs">
       <DependentUpon>RockAlbums.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\HomePage.aspx.cs">
+    <Compile Include="ASPPages\Pages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\HomePage.aspx.designer.cs">
+    <Compile Include="ASPPages\Pages\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.cs">
@@ -435,11 +436,11 @@
     <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.designer.cs">
       <DependentUpon>LanaDelReyAlbumsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\LogIn.aspx.cs">
+    <Compile Include="ASPPages\Pages\LogIn.aspx.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\LogIn.aspx.designer.cs">
+    <Compile Include="ASPPages\Pages\LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\MasterPage.Master.cs">
@@ -456,11 +457,11 @@
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx.designer.cs">
       <DependentUpon>TaylorSwiftAlbumsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\ShowData.aspx.cs">
+    <Compile Include="ASPPages\Pages\ShowData.aspx.cs">
       <DependentUpon>ShowData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\ShowData.aspx.designer.cs">
+    <Compile Include="ASPPages\Pages\ShowData.aspx.designer.cs">
       <DependentUpon>ShowData.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -506,7 +507,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ASPPages\StyleSheets\Common\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
