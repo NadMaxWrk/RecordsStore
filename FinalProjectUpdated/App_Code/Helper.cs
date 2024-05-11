@@ -14,9 +14,12 @@ public class Helper
     public const string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\"
                                     + DBName + ";Integrated Security=True";   // The Data Base is in the App_Data = |DataDirectory|
 
+    /// <summary>
+    /// gets A table from the database according to the SELECT Command in SQLStr;
+    /// </summary>
+    /// <param name="SQLStr">QueryString</param>
+    /// <returns>DataSet with the Table </returns>
     public static DataSet RetrieveTable(string SQLStr)
-    // Gets A table from the data base acording to the SELECT Command in SQLStr;
-    // Returns DataSet with the Table.
     {
         // connect to DataBase
         SqlConnection con = new SqlConnection(conString);
@@ -69,11 +72,9 @@ public class Helper
         return n;
     }
 
-    public static string BuildSimpleUsersTable(DataTable dt)
+    public static string BuildSimpleTable(DataTable dt, string[] columnHeaders)
     // the Method Build HTML user Table using the users in the DataTable dt.
     {
-        string[] columnHeaders = new string[] { "שם משתמש", "שם פרטי", "שם משפחה", "סיסמה", "אמייל", "מגדר", "גיל", "ז'אנר אהוב", "אמן אהוב", "מנהל" };
-
         string str = "<table style='text-align: center; direction: rtl; margin: 0 auto; border-collapse: collapse; margin-top: 40px; '>";
         str += "<tr>";
         foreach (string header in columnHeaders)
@@ -81,8 +82,6 @@ public class Helper
             str += "<th style='padding: 8px; background-color: #f2f2f2;'>" + header + "</th>";
         }
         str += "<tr>";
-
-
 
         foreach (DataRow row in dt.Rows)
         {
