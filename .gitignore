@@ -16,4 +16,6 @@
 /FinalProjectUpdated/obj/Debug/FinalProjectUpdated.csproj.FileListAbsolute.txt
 /FinalProjectUpdated/obj/Debug/FinalProjectUpdated.dll
 /FinalProjectUpdated/obj/Debug/FinalProjectUpdated.pdb
-/FinalProjectUpdated/App_Data/RecordsStoreDB_log.ldf
+*.mdf
+*.ldf
+*.bak
