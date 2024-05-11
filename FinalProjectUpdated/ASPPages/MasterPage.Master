@@ -1,6 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FinalProjectUpdated.ASPPages.MasterPage" %>
 
-<link href="<%= ResolveUrl("~/ASPPages/StyleSheets/StyleSheetNavBar.css") %>" rel="stylesheet" />
+<link href="<%= ResolveUrl("~/ASPPages/StyleSheets/Pages/StyleSheetNavBar.css") %>" rel="stylesheet" />
 
 <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
         <div>
             <div class="navbar">
-                <a href="<%= ResolveUrl("~/ASPPages/HomePage.aspx") %>">בית</a>
+                <a href="<%= ResolveUrl("~/ASPPages/Pages/HomePage.aspx") %>">בית</a>
                 <div class="dropdown">
                     <button class="dropbtn">
                         אמנים
@@ -48,12 +48,12 @@
          <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="<%= ResolveUrl("~/ASPPages/FormPage.aspx") %>">טופס הרשמה</a>
-                        <a href="<%= ResolveUrl("~/ASPPages/LogIn.aspx") %>">התחברות</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Pages/FormPage.aspx") %>">טופס הרשמה</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Pages/LogIn.aspx") %>">התחברות</a>
 
                     </div>
                 </div>
-                <a href="<%= ResolveUrl("~/ASPPages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
+                <a href="<%= ResolveUrl("~/ASPPages/Pages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
             </div>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="LustForLife.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.LanaDelRey.LDRalbums.LustForLife" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/LDRStyles/LustForLifeStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/LDRStyles/LustForLifeStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     

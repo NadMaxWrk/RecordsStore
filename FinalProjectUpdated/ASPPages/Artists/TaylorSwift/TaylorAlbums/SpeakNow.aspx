@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="SpeakNow.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.TaylorSwift.TaylorAlbums.SpeakNow" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/TaylorStyles/SpeakNowStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/TaylorStyles/SpeakNowStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

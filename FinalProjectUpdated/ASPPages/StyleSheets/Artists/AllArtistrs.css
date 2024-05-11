@@ -1,0 +1,28 @@
+﻿
+.image-container {
+	text-align: center;
+	height: 80%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	.image-container img {
+		width: 280px; /* Adjust image width as needed */
+		height: auto; /* Maintain aspect ratio */
+		margin: 80px; /* Adjust spacing between images */
+		border-radius: 50%; /* Make the images circular */
+		transition: transform 0.25s; /* Add smooth transition effect */
+	}
+
+		.image-container img:hover {
+			transform: scale(1.3); /* Enlarge the image slightly on hover */
+		}
+
+.captions {
+	text-align: center;
+	font-family: Calibri;
+	font-size: 35px;
+}
+

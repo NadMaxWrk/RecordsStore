@@ -1,35 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="ArtistsPage.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.ArtistsPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
-        .image-container {
-            text-align: center;
-            height: 80%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-            .image-container img {
-                width: 280px; /* Adjust image width as needed */
-                height: auto; /* Maintain aspect ratio */
-                margin: 80px; /* Adjust spacing between images */
-                border-radius: 50%; /* Make the images circular */
-                transition: transform 0.25s; /* Add smooth transition effect */
-            }
-
-                .image-container img:hover {
-                    transform: scale(1.3); /* Enlarge the image slightly on hover */
-                }
-
-        .captions {
-            text-align: center;
-            font-family: Calibri;
-            font-size: 35px;
-        }
-    </style>
-
+    <link href="../StyleSheets/Artists/AllArtistrs.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

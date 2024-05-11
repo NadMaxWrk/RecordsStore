@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="HarryStylesAlbumsPage.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.HarryStyles.HarrysAlbumsPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../StyleSheets/HsStyles/HSAlbums.css" rel="stylesheet" />
+    <link href="../../StyleSheets/Artists/HsStyles/HSAlbums.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

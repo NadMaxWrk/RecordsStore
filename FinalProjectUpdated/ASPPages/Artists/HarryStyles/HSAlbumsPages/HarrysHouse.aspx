@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="HarrysHouse.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.HarryStyles.HSAlbumsPages.HarrysHouse" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/HsStyles/HarrysHouseStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/HsStyles/HarrysHouseStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <h1>Harry's House </h1>

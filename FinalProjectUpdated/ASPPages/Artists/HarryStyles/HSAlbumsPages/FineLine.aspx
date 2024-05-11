@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="FineLine.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.HarryStyles.HSAlbumsPages.FineLine" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/HsStyles/FineLineStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/HsStyles/FineLineStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

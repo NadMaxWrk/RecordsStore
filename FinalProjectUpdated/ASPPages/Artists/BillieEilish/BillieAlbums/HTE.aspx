@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="HTE.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.BillieEilish.BillieAlbums.HTE" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/BillieEilishStyles/HappierThanEverStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/BillieEilishStyles/HappierThanEverStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

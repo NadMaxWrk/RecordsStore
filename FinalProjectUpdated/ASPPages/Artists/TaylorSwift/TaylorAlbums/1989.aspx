@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="1989.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.TaylorSwift.TaylorAlbums._1989" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/TaylorStyles/1989Style.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/TaylorStyles/1989Style.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

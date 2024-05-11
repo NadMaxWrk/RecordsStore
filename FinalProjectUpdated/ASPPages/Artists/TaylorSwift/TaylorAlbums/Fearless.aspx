@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="Fearless.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.Artists.TaylorSwift.TaylorAlbums.Fearless" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../../StyleSheets/TaylorStyles/FearlessStyle.css" rel="stylesheet" />
+    <link href="../../../StyleSheets/Artists/TaylorStyles/FearlessStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
             <h1>FEARLESS (TAYLOR'S VERSION) </h1>
