@@ -41,7 +41,7 @@ img {
 
 @font-face{
     font-family: COTCC;
-    src: url(../../fonts/cotcc.ttf);
+    src: url(../../../fonts/cotcc.ttf);
 }
 
 iframe {

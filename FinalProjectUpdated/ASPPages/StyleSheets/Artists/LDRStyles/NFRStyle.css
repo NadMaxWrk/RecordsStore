@@ -40,12 +40,12 @@ img {
 
 @font-face{
     font-family: nfr;
-    src: url(../../fonts/NFR.ttf);
+    src: url(../../../fonts/NFR.ttf);
 }
 
 @font-face{
     font-family: NFRtracklist;
-    src: url(../../fonts/NFRtracklist.ttf);
+    src: url(../../../fonts/NFRtracklist.ttf);
 }
 
 

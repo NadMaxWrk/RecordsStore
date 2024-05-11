@@ -43,12 +43,12 @@ img {
 
 @font-face{
     font-family: Lover;
-    src: url(../../fonts/Lover.ttf);
+    src: url(../../../fonts/Lover.ttf);
 }
 
 @font-face{
     font-family: LoverTracklist;
-    src: url(../../fonts/LoverTracklist.ttf);
+    src: url(../../../fonts/LoverTracklist.ttf);
 }
 
 

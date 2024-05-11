@@ -42,7 +42,7 @@ img {
 
  @font-face{
      font-family: HarryStyles;
-     src: url(../../fonts/HarryStyles.ttf);
+     src: url(../../../fonts/HarryStyles.ttf);
  }
 
 iframe {

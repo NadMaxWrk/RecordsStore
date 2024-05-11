@@ -46,12 +46,12 @@ img {
 
 @font-face {
     font-family: REP;
-    src: url(../../fonts/Reputation.ttf);
+    src: url(../../../fonts/Reputation.ttf);
 }
 
 @font-face {
     font-family: REPTracklist;
-    src: url(../../fonts/RepTracklist.ttf);
+    src: url(../../../fonts/RepTracklist.ttf);
 }
 
 

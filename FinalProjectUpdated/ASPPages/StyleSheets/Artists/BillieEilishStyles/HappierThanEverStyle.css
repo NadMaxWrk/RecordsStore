@@ -44,12 +44,12 @@ img {
 
 @font-face{
     font-family: HappierThanEver;
-    src: url(../../fonts/HappierThanEver.ttf);
+    src: url(../../../fonts/HappierThanEver.ttf);
 }
 
 @font-face{
     font-family: tracklist;
-    src: url(../../fonts/HappierThanEverTracklist.ttf);
+    src: url(../../../fonts/HappierThanEverTracklist.ttf);
 }
 
 

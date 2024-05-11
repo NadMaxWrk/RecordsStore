@@ -41,12 +41,12 @@ img {
 
 @font-face{
     font-family: SpeakNow;
-    src: url(../../fonts/SpeakNowMedium.otf);
+    src: url(../../../fonts/SpeakNowMedium.otf);
 }
 
 @font-face{
     font-family: SpeakNowTracklist;
-    src: url(../../fonts/SpeakNowTracklist.otf);
+    src: url(../../../fonts/SpeakNowTracklist.otf);
 }
 
 

@@ -53,12 +53,12 @@ img {
 
 @font-face {
     font-family: TS1989;
-    src: url(../../fonts/TS1989.ttf);
+    src: url(../../../fonts/TS1989.ttf);
 }
 
 @font-face{
     font-family: TaylorsVersion;
-    src: url(../../fonts/1989TVcaption.ttf)
+    src: url(../../../fonts/1989TVcaption.ttf)
 }
 
 
