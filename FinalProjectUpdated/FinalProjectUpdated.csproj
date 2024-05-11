@@ -71,6 +71,7 @@
     <Content Include="App_Data\RecordsStoreDB_log.ldf">
       <DependentUpon>RecordsStoreDB.mdf</DependentUpon>
     </Content>
+    <Content Include="ASPPages\Artists\ArtistsPage.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\HTE.aspx" />
     <Content Include="ASPPages\Artists\BillieEilish\BillieAlbums\WWAFAWDWG.aspx" />
@@ -108,31 +109,36 @@
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
     <Content Include="ASPPages\LogIn.aspx" />
-    <Content Include="ASPPages\pictures\1989.jpg" />
-    <Content Include="ASPPages\pictures\fearless.jpg" />
-    <Content Include="ASPPages\pictures\HitMeHardandSoft.png" />
-    <Content Include="ASPPages\pictures\BlueBanisters.jpg" />
-    <Content Include="ASPPages\pictures\BornToDIe.jpg" />
-    <Content Include="ASPPages\pictures\COTCC.jpg" />
-    <Content Include="ASPPages\pictures\didyouknowtheresatunnel.jpg" />
-    <Content Include="ASPPages\pictures\evermore.jpg" />
-    <Content Include="ASPPages\pictures\FineLine.jpg" />
-    <Content Include="ASPPages\pictures\folklore.jpg" />
-    <Content Include="ASPPages\pictures\HappierThanEver.jpg" />
-    <Content Include="ASPPages\pictures\Harry%27sHouse.jpg" />
-    <Content Include="ASPPages\pictures\HarryStyles-albumcover.png" />
-    <Content Include="ASPPages\pictures\honeymoon.jpg" />
-    <Content Include="ASPPages\pictures\Lover.jpg" />
-    <Content Include="ASPPages\pictures\LustForLife.jpg" />
-    <Content Include="ASPPages\pictures\Midnights3am.jpg" />
-    <Content Include="ASPPages\pictures\NFR.jpg" />
-    <Content Include="ASPPages\pictures\RED.jpg" />
-    <Content Include="ASPPages\pictures\Reputation.jpg" />
-    <Content Include="ASPPages\pictures\SpeakNow.jpg" />
-    <Content Include="ASPPages\pictures\TaylorSwift.jpg" />
-    <Content Include="ASPPages\pictures\TTPD.jpg" />
-    <Content Include="ASPPages\pictures\Ultraviolence.jpg" />
-    <Content Include="ASPPages\pictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\1989.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Billie_Eilish_-_Hit_Me_Hard_and_Soft.png" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\BlueBanisters.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\BornToDIe.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\COTCC.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\didyouknowtheresatunnel.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\evermore.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\fearless.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\FineLine.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\folklore.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\HappierThanEver.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Harry%27sHouse.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\HarryStyles-albumcover.png" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\honeymoon.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Lover.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\LustForLife.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Midnights3am.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\NFR.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\RED.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Reputation.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\HMHAS.png" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\SpeakNow.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\TaylorSwift.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\TTPD.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\Ultraviolence.jpg" />
+    <Content Include="ASPPages\pictures\AlbumsPictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\pictures\ArtistsPictures\BilliePic.jpg" />
+    <Content Include="ASPPages\pictures\ArtistsPictures\LanaPic.jpg" />
+    <Content Include="ASPPages\pictures\ArtistsPictures\HarryPic.jpg" />
+    <Content Include="ASPPages\pictures\ArtistsPictures\TaylorPic.jpg" />
     <Content Include="ASPPages\ShowData.aspx" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\BillieEilishStyles\HappierThanEverStyle.css" />
@@ -177,6 +183,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Helper.cs" />
+    <Compile Include="ASPPages\Artists\ArtistsPage.aspx.cs">
+      <DependentUpon>ArtistsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPPages\Artists\ArtistsPage.aspx.designer.cs">
+      <DependentUpon>ArtistsPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ASPPages\Artists\BillieEilish\BillieAlbums\HMHAS.aspx.cs">
       <DependentUpon>HMHAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -16,7 +16,7 @@
                 height: auto; /* Maintain aspect ratio */
                 margin: 80px; /* Adjust spacing between images */
                 border-radius: 50%; /* Make the images circular */
-                transition: transform 0.2s; /* Add smooth transition effect */
+                transition: transform 0.25s; /* Add smooth transition effect */
             }
 
                 .image-container img:hover {

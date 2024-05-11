@@ -25,6 +25,8 @@
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>">הארי סטיילס</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
+                        <a href="<%= ResolveUrl("~/ASPPages/Artists/ArtistsPage.aspx") %>">כל האמנים</a>
+
                     </div>
                 </div>
                 <div class="dropdown">

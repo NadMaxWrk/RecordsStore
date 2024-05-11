@@ -27,7 +27,12 @@
         max-width: 200%; /* Ensure images don't exceed container width */
         max-height: 300px; /* Limit the height of the images */
         margin: 0 70px; /* Margin around images */
+        transition: transform 0.25s; /* Add smooth transition effect */
     }
+        .image-container img:hover {
+            box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); /* Increase spread radius */
+            transform: scale(1.3); /* Enlarge the image slightly on hover */
+        }
 
 .caption {
     text-align: center; /* Center the caption text */

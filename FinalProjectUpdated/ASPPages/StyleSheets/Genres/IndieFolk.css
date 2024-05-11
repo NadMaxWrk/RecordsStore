@@ -29,8 +29,13 @@ h1{
         height: auto;
         margin: 0 40px; /* Add some margin between images */
         margin-top: 30px;
+        transition: transform 0.25s; /* Add smooth transition effect */
     }
 
+        .image-container img:hover {
+            box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); /* Increase spread radius */
+            transform: scale(1.3); /* Enlarge the image slightly on hover */
+        }
 
 img {
     width: 250px;
