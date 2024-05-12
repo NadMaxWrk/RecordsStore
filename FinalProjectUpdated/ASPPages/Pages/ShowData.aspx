@@ -11,9 +11,9 @@
             
             <div style="margin-right:10px; display: inline-block">
                 <div style="display: inline-block;">סדר לפי: </div>
-                    <input type="radio" id="asc" name="asc" runat="server" />
+                    <input type="radio" id="asc" name="order" runat="server" />
                     <label for="asc">עולה</label>
-                    <input type="radio" id="dsc" name="dsc" runat="server">
+                    <input type="radio" id="dsc" name="order" runat="server">
                     <label for="dsc">יורד</label>
             </div>
             

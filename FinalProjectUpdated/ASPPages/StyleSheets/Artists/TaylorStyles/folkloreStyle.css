@@ -43,7 +43,7 @@ img {
 @font-face{
 
     font-family: folklore;
-    src: url(../../../../fonts/Folklore.ttf);
+    src: url(../../../fonts/Folklore.ttf);
 }
 
 iframe {

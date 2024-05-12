@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="FormPage.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.FormPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetForm.css" rel="stylesheet" />
-    <script type="module" src="JavaScriptFiles/JavaScriptSignUp.js"></script>
-    <script type="module" src="JavaScriptFiles/Utils.js"></script>
+    <script type="module" src="../JavaScriptFiles/JavaScriptSignUp.js"></script>
+    <script type="module" src="../JavaScriptFiles/Utils.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1> טופס הרשמה לאתר</h1>
