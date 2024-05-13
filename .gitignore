@@ -19,3 +19,4 @@
 *.mdf
 *.ldf
 *.bak
+/FinalProjectUpdated/App_Data/RecordsStoreDB.mdf
