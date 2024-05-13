@@ -7,7 +7,7 @@
         <div style="text-align: center; direction: rtl; margin-top: 30px;" runat="server" id="sortUsers" name="sortUsers">
             
             <div style="display: inline-block;">מיין לפי: </div>
-            <select id="sortBySelect" runat="server" name="sortBySelect" onserverchange="sortBySelect_SelectedIndexChanged" style="display: inline-block;" />
+            <select id="sortBySelect" runat="server" name="sortBySelect" style="display: inline-block;" />
             
             <div style="margin-right:10px; display: inline-block">
                 <div style="display: inline-block;">סדר לפי: </div>

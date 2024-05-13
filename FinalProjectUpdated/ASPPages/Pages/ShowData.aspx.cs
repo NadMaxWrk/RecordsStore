@@ -22,6 +22,10 @@ namespace FinalProjectUpdated.ASPPages
                 sortBySelect.Items.Add(item);
             }
 
+            //intializing ascending order
+            asc.Value = "TRUE";
+            dsc.Value = "FALSE";
+
             //building the users table
             string SQLStr = "SELECT * FROM " + Helper.tblName;
             DataSet ds = Helper.RetrieveTable(SQLStr);
@@ -30,14 +34,11 @@ namespace FinalProjectUpdated.ASPPages
             divTable.InnerHtml = table;
         }
 
-        public void sortBySelect_SelectedIndexChanged(object sender, EventArgs e)
-        {
-          
-
-        }
 
         protected void sortButton_ServerClicked(object sender, EventArgs e)
         {
+
+
 
         }
     }
