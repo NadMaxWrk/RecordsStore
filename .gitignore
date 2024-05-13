@@ -17,7 +17,8 @@
 /FinalProjectUpdated/obj/Debug/FinalProjectUpdated.dll
 /FinalProjectUpdated/obj/Debug/FinalProjectUpdated.pdb
 
-#*.mdf
+*.mdf
 *.ldf
 *.bak
 /FinalProjectUpdated/App_Data/RecordsStoreDB.mdf
+
