@@ -1,9 +1,65 @@
-﻿body 
-{
-    background-color: silver;
-    color: black;
-    font-size: medium;
-    direction: rtl;
-    font-family: Arial;
+﻿/* Carousel container */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
 }
 
+/* Individual slide */
+.slide {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+    /* Image styling */
+    .slide img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px; /* Add rounded corners if desired */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    }
+
+/* Caption styling */
+.caption {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* White text */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.8; /* Adjust opacity as needed */
+}
+
+/* Navigation arrows */
+.prev-arrow,
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+    .prev-arrow:hover,
+    .next-arrow:hover {
+        background-color: #555; /* Darker color on hover */
+    }
+
+.prev-arrow {
+    left: 10px;
+}
+
+.next-arrow {
+    right: 10px;
+}

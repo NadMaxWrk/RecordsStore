@@ -14,7 +14,7 @@ namespace FinalProjectUpdated.ASPPages
     public partial class ShowTable : System.Web.UI.Page
     {
         private bool _isAscending = true;
-        private readonly string[] columnHeaders = new string[] { "שם משתמש", "שם פרטי", "שם משפחה", "סיסמה", "אמייל", "מגדר", "גיל", "ז'אנר אהוב", "אמן אהוב", "מנהל" };
+        private readonly string[] columnHeaders = new string[] { "שם משתמש", "שם פרטי", "שם משפחה", "סיסמה", "אמייל", "מגדר", "גיל", "אמן אהוב", "ז'אנר אהוב", "מנהל" };
 
         public ShowTable()
         {

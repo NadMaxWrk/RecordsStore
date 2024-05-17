@@ -14,7 +14,7 @@
         <br />
         <b>לייבל: </b> Interscope Records 
         <br />
-        <b>ז'אנרים: </b> ?
+        <b>ז'אנרים: </b> פופ, רוק אלטרנטיבי
     </p>
 
 
@@ -32,7 +32,7 @@
 
     </p>
 
-    <img src="../../../pictures/AlbumsPictures/HMHAS.png" />
+    <img src="../../../pictures/AlbumsPictures/HMHAS.jpg" />
 
 </div>
 

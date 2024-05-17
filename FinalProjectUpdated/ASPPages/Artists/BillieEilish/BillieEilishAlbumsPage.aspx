@@ -19,7 +19,7 @@
         </div>
         <div class="image-container">
             <a href="BillieAlbums/HMHAS.aspx">
-                <img src="../../pictures/AlbumsPictures/Lover.jpg" />
+                <img src="../../pictures/AlbumsPictures/HMHAS.jpg" />
             </a>
             <div class="caption">HIT ME HARD AND SOFT</div>
         </div>

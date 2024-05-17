@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 
 public class Helper
@@ -80,11 +81,11 @@ public class Helper
     /// <returns> an html string representing the table data</returns>
     public static string BuildSimpleTable(DataTable dt, string[] columnHeaders)
     {
-        string str = "<table style='text-align: center; direction: rtl; margin: 0 auto; border-collapse: collapse; margin-top: 40px; '>";
+        string str = "<table>";
         str += "<tr>";
         foreach (string header in columnHeaders)
         {
-            str += "<th style='padding: 8px; background-color: #f2f2f2;'>" + header + "</th>";
+            str += "<th>" + header + "</th>";
         }
         str += "<tr>";
 
@@ -94,7 +95,7 @@ public class Helper
 
             foreach (DataColumn col in dt.Columns)
             {
-                str += "<td style='padding: 8px; border: 1px solid #ddd;'>" + row[col] + "</td>";
+                str += "<td>" + row[col] + "</td>";
             }
 
             str += "</tr>";
@@ -104,3 +105,7 @@ public class Helper
         return str;
     }
 }
+
+//table - style = 'text-align: center; direction: rtl; margin: 0 auto; border-collapse: collapse; margin-top: 40px; '
+//th - style = 'padding: 8px; background-color: #f2f2f2;'
+// td -    style = 'padding: 8px; border: 1px solid #ddd;'
