@@ -7,6 +7,7 @@
 
                 <h1>HIT ME HARD AND SOFT </h1>
 <div class="container1">
+    <div>
     <p class="info">
         <b>שם האמן:</b> בילי אייליש
         <br />
@@ -16,7 +17,8 @@
         <br />
         <b>ז'אנרים: </b> פופ, רוק אלטרנטיבי
     </p>
-
+<iframe width="490" height="330" src="https://www.youtube.com/embed/MB3VkzPdgLA" allowfullscreen></iframe>
+        </div>
 
     <p class="tracklist">
         SKINNY  <br />

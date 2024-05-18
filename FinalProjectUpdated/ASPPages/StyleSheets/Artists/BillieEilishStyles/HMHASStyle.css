@@ -26,9 +26,9 @@ img {
     text-align: left;
     height: 450px;
     width: 450px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 70px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .tracklist {
@@ -42,4 +42,11 @@ img {
 @font-face{
     font-family: HMHAS;
     src: url(../../../fonts/HitMeHardAndSoft.otf);
+}
+
+
+iframe {
+    text-align: right;
+    margin-top: 90px;
+    margin-right: 55px;
 }
