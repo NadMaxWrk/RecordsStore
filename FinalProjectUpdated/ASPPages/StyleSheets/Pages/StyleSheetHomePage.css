@@ -1,65 +1,108 @@
-﻿/* Carousel container */
-.carousel {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
+﻿/* Define font face */
+@font-face {
+    font-family: HomePageFont;
+    src: url(../../fonts/HomePage.ttf);
 }
 
-/* Individual slide */
-.slide {
-    display: inline-block;
-    width: 100%;
-    transition: transform 0.5s ease;
-    position: relative;
+/* Apply styles to elements */
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: HomePageFont;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the body fills the viewport */
 }
 
-    /* Image styling */
-    .slide img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px; /* Add rounded corners if desired */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-    }
-
-/* Caption styling */
-.caption {
+header {
+    color: black;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: #fff; /* White text */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0.8; /* Adjust opacity as needed */
+    font-size: xx-large;
 }
 
-/* Navigation arrows */
-.prev-arrow,
-.next-arrow {
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+/* Styles for the carousel */
+.carousel {
+    width: 600px; /* Adjust this value to your desired width */
+    height: 600px; /* Adjust this value to your desired height */
     position: absolute;
+    margin: auto;
+    left:0;
+    right: 0;
+    margin-top: 100px; /* Adjust margin-top as needed */
+}
+
+.carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out; /* Smooth transition for fading */
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+[data-active="true"].slide {
+    opacity: 1;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 3;
+    background: none;
+    border: none;
+    font-size: 2rem; /* Adjusted font size for smaller carousel */
     top: 50%;
     transform: translateY(-50%);
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .1);
 }
 
-    .prev-arrow:hover,
-    .next-arrow:hover {
-        background-color: #555; /* Darker color on hover */
-    }
-
-.prev-arrow {
-    left: 10px;
+.carousel-button:hover,
+.carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
 }
 
-.next-arrow {
-    right: 10px;
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
 }

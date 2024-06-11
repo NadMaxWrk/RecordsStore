@@ -99,16 +99,17 @@
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\Reputation.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\SpeakNow.aspx" />
     <Content Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx" />
-    <Content Include="ASPPages\Pages\FormPage.aspx" />
+    <Content Include="ASPPages\General Pages\FormPage.aspx" />
     <Content Include="ASPPages\Genres\AlternativeAlbums.aspx" />
     <Content Include="ASPPages\Genres\CountryAlbums.aspx" />
     <Content Include="ASPPages\Genres\IndieFolkAlbums.aspx" />
     <Content Include="ASPPages\Genres\PopAlbums.aspx" />
     <Content Include="ASPPages\Genres\RockAlbums.aspx" />
-    <Content Include="ASPPages\Pages\HomePage.aspx" />
+    <Content Include="ASPPages\General Pages\HomePage.aspx" />
+    <Content Include="ASPPages\JavaScriptFiles\ImageCarousel.js" />
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
-    <Content Include="ASPPages\Pages\LogIn.aspx" />
+    <Content Include="ASPPages\General Pages\LogIn.aspx" />
     <Content Include="ASPPages\pictures\AlbumsPictures\1989.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\Billie_Eilish_-_Hit_Me_Hard_and_Soft.png" />
     <Content Include="ASPPages\pictures\AlbumsPictures\BlueBanisters.jpg" />
@@ -129,7 +130,6 @@
     <Content Include="ASPPages\pictures\AlbumsPictures\NFR.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\RED.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\Reputation.jpg" />
-    <Content Include="ASPPages\pictures\AlbumsPictures\HMHAS.png" />
     <Content Include="ASPPages\pictures\AlbumsPictures\SpeakNow.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\TaylorSwift.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\TTPD.jpg" />
@@ -139,7 +139,7 @@
     <Content Include="ASPPages\pictures\ArtistsPictures\LanaPic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\HarryPic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\TaylorPic.jpg" />
-    <Content Include="ASPPages\Pages\ShowData.aspx" />
+    <Content Include="ASPPages\General Pages\ShowData.aspx" />
     <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\BillieAlbums.css" />
     <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\HappierThanEverStyle.css" />
     <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\HMHASStyle.css" />
@@ -180,6 +180,7 @@
     <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TaylorAlbums.css" />
     <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TaylorSwiftStyle.css" />
     <Content Include="ASPPages\StyleSheets\Artists\TaylorStyles\TTPDStyle.css" />
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -380,11 +381,11 @@
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorAlbums\TTPD.aspx.designer.cs">
       <DependentUpon>TTPD.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\Pages\FormPage.aspx.cs">
+    <Compile Include="ASPPages\General Pages\FormPage.aspx.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\Pages\FormPage.aspx.designer.cs">
+    <Compile Include="ASPPages\General Pages\FormPage.aspx.designer.cs">
       <DependentUpon>FormPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Genres\AlternativeAlbums.aspx.cs">
@@ -422,11 +423,11 @@
     <Compile Include="ASPPages\Genres\RockAlbums.aspx.designer.cs">
       <DependentUpon>RockAlbums.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\Pages\HomePage.aspx.cs">
+    <Compile Include="ASPPages\General Pages\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\Pages\HomePage.aspx.designer.cs">
+    <Compile Include="ASPPages\General Pages\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.cs">
@@ -436,11 +437,11 @@
     <Compile Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx.designer.cs">
       <DependentUpon>LanaDelReyAlbumsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\Pages\LogIn.aspx.cs">
+    <Compile Include="ASPPages\General Pages\LogIn.aspx.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\Pages\LogIn.aspx.designer.cs">
+    <Compile Include="ASPPages\General Pages\LogIn.aspx.designer.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPPages\MasterPage.Master.cs">
@@ -457,12 +458,15 @@
     <Compile Include="ASPPages\Artists\TaylorSwift\TaylorSwiftAlbumsPage.aspx.designer.cs">
       <DependentUpon>TaylorSwiftAlbumsPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPPages\Pages\ShowData.aspx.cs">
+    <Compile Include="ASPPages\General Pages\ShowData.aspx.cs">
       <DependentUpon>ShowData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPPages\Pages\ShowData.aspx.designer.cs">
+    <Compile Include="ASPPages\General Pages\ShowData.aspx.designer.cs">
       <DependentUpon>ShowData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -499,6 +503,7 @@
     <Content Include="ASPPages\fonts\NFRtracklist.ttf" />
     <Content Include="ASPPages\fonts\BornToDie.otf" />
     <Content Include="ASPPages\fonts\HitMeHardAndSoft.otf" />
+    <Content Include="ASPPages\fonts\HomePage.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
