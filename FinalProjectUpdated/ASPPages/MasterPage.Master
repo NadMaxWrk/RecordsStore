@@ -10,18 +10,30 @@
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    
+
 </head>
 <body>
     <form id="form1" runat="server">
+
+       <%-- <table style="width: 100%; border: none;">
+            <tr>
+                <td style="width: 50%; border: none;" id="userName" name="userName"><%="שלום, " + Session["userName"]%></td>
+                <td style="width: 50%; border: none;">
+                    <input type="button" id="Abandon" runat="server" onserverclick="Btn_Abandon" name="userName" value="יציאה" />
+                </td>
+            </tr>
+        </table>--%>
+
         <div>
             <div class="navbar">
-                <a href="<%= ResolveUrl("~/ASPPages/General Pages/HomePage.aspx") %>">בית</a>
+                <div id="HomePage" runat="server">
+                    <a href="<%= ResolveUrl("~/ASPPages/General Pages/HomePage.aspx") %>">בית</a>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn">
                         אמנים
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="artists" runat="server">
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>">טיילור סוויפט</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>">הארי סטיילס</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
@@ -35,7 +47,7 @@
                         ז'אנרים
             <i class="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="genres" runat="server">
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/CountryAlbums.aspx") %>">קאנטרי</a>
@@ -48,18 +60,22 @@
                         טפסים
          <i class="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content" id="forms" runat="server">
                         <a href="<%= ResolveUrl("~/ASPPages/General Pages/FormPage.aspx") %>">טופס הרשמה</a>
                         <a href="<%= ResolveUrl("~/ASPPages/General Pages/LogIn.aspx") %>">התחברות</a>
 
                     </div>
                 </div>
-                <a href="<%= ResolveUrl("~/ASPPages/General Pages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
+                <div id="ShowUsers" runat="server">
+                    <a href="<%= ResolveUrl("~/ASPPages/General Pages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
+                </div>
             </div>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
+
     </form>
 </body>
 </html>

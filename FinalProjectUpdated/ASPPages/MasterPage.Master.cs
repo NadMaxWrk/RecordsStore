@@ -11,7 +11,46 @@ namespace FinalProjectUpdated.ASPPages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //    if ((bool)Session["Admin"] == false && (bool)Session["Login"] == false)
+            //    {
+            //        artists.Visible = true;
+            //        HomePage.Visible = true;
+            //        genres.Visible = false;  
+            //        ShowUsers.Visible = false;
+            //        forms.Visible = true;
+            //    }
+
+            //    else
+            //    {
+            //        if ((bool)Session["Admin"] == false && (bool)Session["Login"] == true)
+            //        {
+            //            artists.Visible = true;
+            //            HomePage.Visible = true;
+            //            genres.Visible = true;
+            //            ShowUsers.Visible = false;
+            //            forms.Visible = true;
+            //        }
+
+            //        else
+            //        {
+
+            //          artists.Visible = true;
+            //          HomePage.Visible = true;
+            //          genres.Visible = true;
+            //          ShowUsers.Visible = true;
+            //          forms.Visible = true;
+
+            //        }
+            //    }
 
         }
+
+
+        public void Btn_Abandon (object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("HomePage.aspx");
+        }
+
     }
 }

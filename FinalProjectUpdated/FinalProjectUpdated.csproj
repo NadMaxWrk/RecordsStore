@@ -110,6 +110,7 @@
     <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
     <Content Include="ASPPages\General Pages\LogIn.aspx" />
+    <Content Include="ASPPages\JavaScriptFiles\LogInPage.js" />
     <Content Include="ASPPages\pictures\AlbumsPictures\1989.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\Billie_Eilish_-_Hit_Me_Hard_and_Soft.png" />
     <Content Include="ASPPages\pictures\AlbumsPictures\BlueBanisters.jpg" />
@@ -135,6 +136,10 @@
     <Content Include="ASPPages\pictures\AlbumsPictures\TTPD.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\Ultraviolence.jpg" />
     <Content Include="ASPPages\pictures\AlbumsPictures\whenweallfallasleepwheredowego.jpg" />
+    <Content Include="ASPPages\pictures\Artists Carousel Pictures\BillieFinal.jpg" />
+    <Content Include="ASPPages\pictures\Artists Carousel Pictures\HarryFinal.jpg" />
+    <Content Include="ASPPages\pictures\Artists Carousel Pictures\LanaFinal.jpg" />
+    <Content Include="ASPPages\pictures\Artists Carousel Pictures\TaylorFinal.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\BilliePic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\LanaPic.jpg" />
     <Content Include="ASPPages\pictures\ArtistsPictures\HarryPic.jpg" />

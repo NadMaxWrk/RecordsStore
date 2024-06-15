@@ -9,33 +9,38 @@
     <header>
         <h1>ברוכים הבאים לחנות התקליטים!</h1>
         <p>היעד המוזיקלי האולטימטיבי שלך!</p>
+        <p class="subtext">גלו את התקליטים והאמנים הטובים ביותר בז'אנרים שונים. חקרו אלבומים, שירים וקליפים .</p>
     </header>
 
     <main runat="server">
-        <!-- Introduction Section -->
-        <section id="intro">
-            <h2>קצת על האתר</h2>
-            <p>גלו את התקליטים והאמנים הטובים ביותר בז'אנרים שונים. חקור אלבומים, שירים וסרטוני מוזיקה.</p>
-        </section>
 
         <!-- Featured Artists Section -->
         <section aria-label="Newest photos">
+            <h2>אמנים</h2>
             <div class="carousel-container">
                 <div class="carousel" data-carousel="true">
                     <button class="carousel-button prev" data-carousel-button="prev" type="button">&#8656;</button>
                     <button class="carousel-button next" data-carousel-button="next" type="button">&#8658;</button>
                     <ul data-slides="true">
                         <li class="slide" data-active="true">
-                            <img src="../pictures/AlbumsPictures/Reputation.jpg" />
+                            <a href="../Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx">
+                                <img src="../pictures/Artists%20Carousel%20Pictures/TaylorFinal.jpg" />
+                            </a>
                         </li>
                         <li class="slide">
-                            <img src="../pictures/AlbumsPictures/Midnights3am.jpg" />
+                            <a href="../Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx">
+                                <img src="../pictures/Artists%20Carousel%20Pictures/LanaFinal.jpg" />
+                            </a>
                         </li>
                         <li class="slide">
-                            <img src="../pictures/AlbumsPictures/Harry'sHouse.jpg" />
+                            <a href="../Artists/HarryStyles/HarryStylesAlbumsPage.aspx">
+                                <img src="../pictures/Artists%20Carousel%20Pictures/HarryFinal.jpg" />
+                            </a>
                         </li>
                         <li class="slide">
-                            <img src="../pictures/AlbumsPictures/NFR.jpg" />
+                            <a href="../Artists/BillieEilish/BillieEilishAlbumsPage.aspx">
+                                 <img src="../pictures/Artists%20Carousel%20Pictures/BillieFinal.jpg" />
+                            </a>
                         </li>
                     </ul>
                 </div>

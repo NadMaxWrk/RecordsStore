@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ASPPages/MasterPage.Master" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="FinalProjectUpdated.ASPPages.LogIn" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetForm.css" rel="stylesheet" />
+    <script type="module" src ="../JavaScriptFiles/LogInPage.js"></script>
     <script type="module" src="../JavaScriptFiles/JavaScriptSignUp.js"></script>
-    <script type="module" src="../JavaScriptFiles/Utils.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table>
@@ -28,11 +28,11 @@
 
         <tr>
             <td>
-                <button type="submit" onclick="return CheckLogIn();">שליחת טופס</button>
+                <button type="submit" onclick="return CheckLogIn()">שליחת טופס</button>
             </td>
 
             <td>
-                <button type="reset" onclick="ResetErrors()">ניקוי טופס</button>
+                <button type="reset" onclick="ResetUsrnamePwd()">ניקוי טופס</button>
             </td>
 
         </tr>

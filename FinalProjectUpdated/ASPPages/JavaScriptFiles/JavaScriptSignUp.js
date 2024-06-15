@@ -39,8 +39,9 @@ function CheckLastName()
     return valid;
 }
 
-function CheckUserName()
+export function CheckUserName()
 {
+    var username = document.getElementById("username").value;
     var valid = ValidateFieldNotEmpty("username", "errorUserName", "לא הוזן שם משתמש ");
     if (valid)
     {
@@ -49,7 +50,7 @@ function CheckUserName()
     return valid;
 }
 
-function CheckPassword()
+export function CheckPassword()
 {
     var password = document.getElementById("password").value;
     var valid = ValidateFieldNotEmpty("password", "errorPassword", "לא הוזנה סיסמה  "); //TODO: Replace "password" with password
@@ -86,7 +87,7 @@ function CheckEmail()
     return valid;
 }
 
-function CheckFavArtist() 
+function CheckFavArtist()
 {
     return ValidateFieldNotEmpty("fav_artist", "errorFavArtist", "לא הוזן אמן אהוב ");
 }
@@ -124,7 +125,6 @@ function CheckGender()
     }
 
     return valid;
-
 }
 
 
@@ -144,18 +144,8 @@ function CreateUser()
     res = CheckGender() && res;
 
     return res;
-
-
 }
 
-function CheckLogIn()
-{
-    var res = true;
-    res = CheckUserName() && res;
-    res = CheckPassword() && res;
-    return res;
-
-}
 
 function ResetErrors()
 {
@@ -173,7 +163,6 @@ function ResetErrors()
 }
 
 
-
 window.CheckFirstName = CheckFirstName;
 window.CheckLastName = CheckLastName;
 window.CheckUserName = CheckUserName;
@@ -186,4 +175,5 @@ window.CheckAge = CheckAge;
 window.CheckGender = CheckGender;
 window.CreateUser = CreateUser;
 window.ResetErrors = ResetErrors;
-window.CheckLogIn = CheckLogIn;
+
+
