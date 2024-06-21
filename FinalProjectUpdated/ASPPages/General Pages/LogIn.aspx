@@ -45,6 +45,9 @@
 
     </table>
 
+    <div id="divResponse" name="divResponse" runat="server">
+
+    </div>
 
 
 

@@ -17,9 +17,9 @@ namespace FinalProjectUpdated
 
         protected void Session_Start(object sender, EventArgs e)
         {
-            Session["userName"] = "guest";
-            Session["LogedIn"] = false;
-            Session["admin"] = false;
+            Session["UserName"] = "guest";
+            Session["LoggedIn"] = false;
+            Session["Admin"] = false;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
@@ -39,9 +39,9 @@ namespace FinalProjectUpdated
 
         protected void Session_End(object sender, EventArgs e)
         {
-            Session["userName"] = "guest";
-            Session["LogedIn"] = false;
-            Session["admin"] = false;
+            Session["UserName"] = "guest";
+            Session["LoggedIn"] = false;
+            Session["Admin"] = false;
         }
 
         protected void Application_End(object sender, EventArgs e)
