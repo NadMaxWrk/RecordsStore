@@ -19,7 +19,7 @@ namespace FinalProjectUpdated.ASPPages
 
         protected void CheckLogin(object sender, EventArgs e)
         {
-            // 1. verify username and password are initialized (used CheckUsername and CheckPassword).
+            // 1. verify username and password are initialized (used CheckUsername and CheckPassword). DONE
             // 2. verify username password against database
             // 3. create session with users parameters
             // 4. if users is not veriftied, show error message

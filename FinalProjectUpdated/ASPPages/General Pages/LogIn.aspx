@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetForm.css" rel="stylesheet" />
     <script type="module" src ="../JavaScriptFiles/LogInPage.js"></script>
-    <script type="module" src="../JavaScriptFiles/JavaScriptSignUp.js"></script>
+    <script type="module" src="../JavaScriptFiles/Utils.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table>
@@ -14,7 +14,7 @@
                 <label for="username">שם משתמש: </label>
             </td>
             <td>
-                <input type="text" id="username" name="username" onblur="CheckUserName()" style="direction: ltr"></td>
+                <input type="text" id="username" name="username" style="direction: ltr"></td>
             <td id="errorUserName" style="color: red"></td>
         </tr>
         <tr>
@@ -22,7 +22,7 @@
                 <label for="password">סיסמה: </label>
             </td>
             <td>
-                <input type="password" id="password" name="password" onblur="CheckPassword()" style="direction: ltr"></td>
+                <input type="password" id="password" name="password"  style="direction: ltr"></td>
             <td id="errorPassword" style="color: red"></td>
         </tr>
 

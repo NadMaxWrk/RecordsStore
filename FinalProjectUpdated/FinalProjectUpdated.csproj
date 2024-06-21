@@ -107,7 +107,7 @@
     <Content Include="ASPPages\Genres\RockAlbums.aspx" />
     <Content Include="ASPPages\General Pages\HomePage.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\ImageCarousel.js" />
-    <Content Include="ASPPages\JavaScriptFiles\JavaScriptSignUp.js" />
+    <Content Include="ASPPages\JavaScriptFiles\SignUp.js" />
     <Content Include="ASPPages\Artists\LanaDelRey\LanaDelReyAlbumsPage.aspx" />
     <Content Include="ASPPages\General Pages\LogIn.aspx" />
     <Content Include="ASPPages\JavaScriptFiles\LogInPage.js" />

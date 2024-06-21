@@ -1,18 +1,12 @@
 ﻿import
 {
-    CheckUserName,
-    CheckPassword
-} from "./JavaScriptSignUp.js";
-
+    ValidateFieldNotEmpty,
+} from "./Utils.js";
 
 function CheckLogIn()
 {
-    var res = true;
-    res = CheckUserName() && res;
-    res = CheckPassword() && res;
-
-    return res;
-
+    var valid = ValidateFieldNotEmpty("username", "errorUserName", "לא הוזן שם משתמש ");
+    var valid = ValidateFieldNotEmpty("password", "errorPassword", "לא הוזנה סיסמה  "); 
 }
 
 function ResetUsrnamePwd()
@@ -23,8 +17,3 @@ function ResetUsrnamePwd()
 
 window.CheckLogIn = CheckLogIn;
 window.ResetUsrnamePwd = ResetUsrnamePwd;
-
-
-
-
-
