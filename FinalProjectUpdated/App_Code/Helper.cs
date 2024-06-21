@@ -105,7 +105,3 @@ public class Helper
         return str;
     }
 }
-
-//table - style = 'text-align: center; direction: rtl; margin: 0 auto; border-collapse: collapse; margin-top: 40px; '
-//th - style = 'padding: 8px; background-color: #f2f2f2;'
-// td -    style = 'padding: 8px; border: 1px solid #ddd;'

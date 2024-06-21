@@ -2,6 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetForm.css" rel="stylesheet" />
+    <link href="../StyleSheets/Common/buttons.css" rel="stylesheet" />
     <script type="module" src="../JavaScriptFiles/JavaScriptSignUp.js"></script>
     <script type="module" src="../JavaScriptFiles/Utils.js"></script>
 </asp:Content>

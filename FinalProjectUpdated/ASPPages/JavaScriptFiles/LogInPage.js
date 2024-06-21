@@ -3,10 +3,12 @@
     ValidateFieldNotEmpty,
 } from "./Utils.js";
 
-function CheckLogIn()
+function VerifyLogInFields()
 {
-    var valid = ValidateFieldNotEmpty("username", "errorUserName", "לא הוזן שם משתמש ");
-    var valid = ValidateFieldNotEmpty("password", "errorPassword", "לא הוזנה סיסמה  "); 
+    var valid1 = ValidateFieldNotEmpty(usernameClientID, "errorUserName", "לא הוזן שם משתמש ");
+    var valid2 = ValidateFieldNotEmpty(passwordClientID, "errorPassword", "לא הוזנה סיסמה  ");
+
+    return valid1 && valid2;
 }
 
 function ResetUsrnamePwd()
@@ -15,5 +17,5 @@ function ResetUsrnamePwd()
     document.getElementById("errorPassword").innerHTML = "";
 }
 
-window.CheckLogIn = CheckLogIn;
+window.VerifyLogInFields = VerifyLogInFields;
 window.ResetUsrnamePwd = ResetUsrnamePwd;

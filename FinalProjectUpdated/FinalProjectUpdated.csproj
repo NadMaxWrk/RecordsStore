@@ -150,6 +150,7 @@
     <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\HMHASStyle.css" />
     <Content Include="ASPPages\StyleSheets\Artists\BillieEilishStyles\WWAFAWDWGstyle.css" />
     <Content Include="ASPPages\StyleSheets\Artists\AllArtistrs.css" />
+    <Content Include="ASPPages\StyleSheets\Common\buttons.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Alternative.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Country.css" />
     <Content Include="ASPPages\StyleSheets\Genres\Rock.css" />
@@ -517,9 +518,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ASPPages\StyleSheets\Common\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
