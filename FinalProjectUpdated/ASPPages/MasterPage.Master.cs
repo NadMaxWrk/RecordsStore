@@ -38,6 +38,29 @@ namespace FinalProjectUpdated.ASPPages
                     forms.Visible = true;
                 }
             }
+
+            if (!IsPostBack)
+            {
+                if (Session["LoggedIn"] != null && (bool)Session["LoggedIn"])
+                {
+                    userName.InnerText = $"שלום, {Session["UserName"]}";
+                    Abandon.Visible = true; // Show the "exit" button
+                }
+                else
+                {
+                    userName.InnerText = ""; // Hide the greeting if not logged in
+                    Abandon.Visible = false; // Hide the "exit" button if not logged in
+                }
+            }
+        }
+
+        protected string GetGreetingMessage()
+        {
+            if (Session["LoggedIn"] != null && (bool)Session["LoggedIn"])
+            {
+                return $"שלום, {Session["UserName"]}";
+            }
+            return ""; // Empty string if not logged in
         }
 
         public void Btn_Abandon (object sender, EventArgs e)

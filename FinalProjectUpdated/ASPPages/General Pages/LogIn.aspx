@@ -6,6 +6,7 @@
     <script type="text/javascript">
         var usernameClientID = '<%= LogInUsername.ClientID %>';
         var passwordClientID = '<%= LogInPassword.ClientID %>';
+        var divResponseClientID = '<%= divResponse.ClientID %>';
     </script>
     <script type="module" src="../JavaScriptFiles/LogInPage.js"></script>
     <script type="module" src="../JavaScriptFiles/Utils.js"></script>

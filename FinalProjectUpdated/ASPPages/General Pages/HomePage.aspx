@@ -35,7 +35,7 @@
                         <li class="slide">
                             <a href="../Artists/HarryStyles/HarryStylesAlbumsPage.aspx">
                                 <img src="../pictures/Artists%20Carousel%20Pictures/HarryFinal.jpg" />
-                            </a>
+                            </a>    
                         </li>
                         <li class="slide">
                             <a href="../Artists/BillieEilish/BillieEilishAlbumsPage.aspx">

@@ -14,16 +14,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-        <%-- <table style="width: 100%; border: none;">
-            <tr>
-                <td style="width: 50%; border: none;" id="userName" name="userName"><%="שלום, " + Session["userName"]%></td>
-                <td style="width: 50%; border: none;">
-                    <input type="button" id="Abandon" runat="server" onserverclick="Btn_Abandon" name="userName" value="יציאה" />
-                </td>
-            </tr>
-        </table>--%>
-
         <div>
             <div class="navbar">
                 <div id="HomePage" runat="server">
@@ -42,12 +32,12 @@
 
                     </div>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown" id="genres" runat="server">
                     <button class="dropbtn">
                         ז'אנרים
             <i class="fa fa-caret-down"></i>
                     </button>
-                    <div class="dropdown-content" id="genres" runat="server">
+                    <div class="dropdown-content" >
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/CountryAlbums.aspx") %>">קאנטרי</a>
@@ -70,10 +60,19 @@
                     <a href="<%= ResolveUrl("~/ASPPages/General Pages/ShowData.aspx") %>">הצגת נתוני משתמשים</a>
                 </div>
             </div>
+            
+         <div class="user-info">
+                <span id="userName" runat="server">
+                    <%# GetGreetingMessage() %>
+                </span>
+                <input type="button" id="Abandon" runat="server" onserverclick="Btn_Abandon" value="יציאה" class="exit-button" />
+            </div>
+        </div>
+
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
+        
 
 
     </form>

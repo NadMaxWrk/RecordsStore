@@ -35,7 +35,7 @@ namespace FinalProjectUpdated.ASPPages
             // 4. if users is not veriftied, show error message
             // 4.1 reset session to default
             CheckUserExists(username, password);
-
+            
         }
 
         private void InitSession(DataRow userRow)
@@ -65,7 +65,7 @@ namespace FinalProjectUpdated.ASPPages
                 Session["UserName"] = "guest";
                 Session["LoggedIn"] = false;
                 Session["Admin"] = false;
-                divResponse.InnerHtml = "אינך רשום באתר, עבור לטופס הרשמה";
+                divResponse.InnerHtml = "שם משתמש או סיסמה שגויים. <br> אינך רשום עדיין? הירשם כאן בטופס ההרשמה";
             }
         }
     }

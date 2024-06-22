@@ -92,7 +92,7 @@ function CheckFavArtist()
     return ValidateFieldNotEmpty("fav_artist", "errorFavArtist", "לא הוזן אמן אהוב ");
 }
 
-function CheckGenere()
+function CheckGenre()
 {
     return ValidateFieldNotEmpty("genere", "errorGenere", " לא הוזן ז'אנר אהוב");
 }
@@ -129,7 +129,7 @@ function CheckGender()
 
 
 
-function CreateUser()
+function VerifyCreateUserFields()
 {
     var res = true;
     res = CheckFirstName() && res;
@@ -139,7 +139,7 @@ function CreateUser()
     res = CheckPasswordConfirmed() && res;
     res = CheckEmail() && res;
     res = CheckFavArtist() && res;
-    res = CheckGenere() && res;
+    res = CheckGenre() && res;
     res = CheckAge() && res;
     res = CheckGender() && res;
 
@@ -170,10 +170,10 @@ window.CheckPassword = CheckPassword;
 window.CheckPasswordConfirmed = CheckPasswordConfirmed;
 window.CheckEmail = CheckEmail;
 window.CheckFavArtist = CheckFavArtist;
-window.CheckGenere = CheckGenere;
+window.CheckGenre = CheckGenre;
 window.CheckAge = CheckAge;
 window.CheckGender = CheckGender;
-window.CreateUser = CreateUser;
+window.VerifyCreateUserFields = VerifyCreateUserFields;
 window.ResetErrors = ResetErrors;
 
 

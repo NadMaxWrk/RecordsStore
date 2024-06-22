@@ -22,10 +22,10 @@ table {
     margin-top: 50px;
     font-size: 25px;
     font-family: Calibri;
-    border-color:black;
+    border-color: black;
 }
 
-input{
+input {
     margin-left: 50px;
     height: 22px;
 }
@@ -34,6 +34,3 @@ tr {
     border: double;
     border-color: white;
 }
-
-
-

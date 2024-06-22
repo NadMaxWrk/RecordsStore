@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetForm.css" rel="stylesheet" />
     <link href="../StyleSheets/Common/buttons.css" rel="stylesheet" />
-    <script type="module" src="../JavaScriptFiles/JavaScriptSignUp.js"></script>
     <script type="module" src="../JavaScriptFiles/Utils.js"></script>
+    <script type="module" src="../JavaScriptFiles/SignUp.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>טופס הרשמה לאתר</h1>
@@ -33,7 +33,7 @@
             <td>
                 <input type="text" id="username" name="username" onblur="CheckUserName()" style="direction: ltr"></td>
 
-            <td id="errorUserName" style="color: red"></td>
+            <td id="errorUserName" name="errorUserName" style="color: red"></td>
         </tr>
         <tr>
             <td>
@@ -63,13 +63,13 @@
             <td>
                 <label>מגדר</label></td>
             <td>
-                <input type="radio" id="male" name="gender" value="male">
+                <input type="radio" id="male" name="gender" value="Male">
                 <label for="male">זכר</label>
                 <br />
-                <input type="radio" id="female" name="gender" value="female">
+                <input type="radio" id="female" name="gender" value="Female">
                 <label for="female">נקבה</label>
                 <br />
-                <input type="radio" id="other" name="gender" value="other">
+                <input type="radio" id="other" name="gender" value="Other">
                 <label for="other">אחר</label>
                 <br />
             </td>
@@ -94,10 +94,10 @@
         </tr>
         <tr>
             <td>
-                <label for="genere">בחר ז'אנר אהוב: </label>
+                <label for="genre">בחר ז'אנר אהוב: </label>
             </td>
             <td>
-                <select id="genere" name="genere" onblur="CheckGenere()">
+                <select id="genre" name="genre" onblur="CheckGenre()">
                     <option value=" " selected="selected"></option>
                     <option value="rock">רוק</option>
                     <option value="pop">פופ</option>
@@ -107,12 +107,12 @@
                     <option value="other">אחר</option>
                 </select>
             </td>
-            <td id="errorGenere" style="color: red"></td>
+            <td id="errorGenre" style="color: red"></td>
         </tr>
 
         <tr>
             <td>
-                <button type="submit" onclick="return CreateUser();">שליחת טופס</button>
+                <asp:Button type="submit" CssClass="aspButton" Text="שליחת טופס" OnClientClick="return VerifyCreateUserFields()" OnClick="CreateNewUser" runat="server"></asp:Button>
             </td>
 
             <td>
@@ -120,5 +120,10 @@
             </td>
 
         </tr>
+       
     </table>
+    <div name="UserAlreadyExists" id="UserAlreadyExists" runat="server" >
+
+</div>
+    <div name="FieldsServerError" id="FieldsServerError" runat="server"></div>
 </asp:Content>

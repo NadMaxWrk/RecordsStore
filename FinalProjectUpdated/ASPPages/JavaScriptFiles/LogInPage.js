@@ -13,6 +13,7 @@ function VerifyLogInFields()
 
 function ResetUsrnamePwd()
 {
+    document.getElementById(divResponseClientID).innerHTML = "";
     document.getElementById("errorUserName").innerHTML = "";
     document.getElementById("errorPassword").innerHTML = "";
 }
