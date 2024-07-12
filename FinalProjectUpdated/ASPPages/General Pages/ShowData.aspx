@@ -23,5 +23,12 @@
 
         <div runat="server" id="divTable" name="divTable">
         </div>
+
+        <div style="text-align: center; direction: rtl; margin-top: 30px;" runat="server">
+            <div style="display: inline-block;">מחיקת משתמש לפי מספר זיהוי: </div>
+            <input type="text" id="deleteUserId" name="deleteUserId" runat="server" />
+            <input type="button" runat="server" onserverclick="deleteButton_ServerClicked" value="מחיקת משתמש" />
+            <label runat="server" id="UserNotFound"></label>
+        </div>
     </div>
 </asp:Content>

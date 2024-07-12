@@ -70,27 +70,23 @@ namespace FinalProjectUpdated.ASPPages
                     UserAlreadyExists.InnerHtml = "שם משתמש תפוס";
                     return;
                 }
-                else
-                {
-                    DataRow dr = ds.Tables["users"].NewRow();
-                    dr["UserName"] = Request.Form["first_name"];
-                    dr["FirstName"] = Request.Form["last_name"];
-                    dr["LastName"] = Request.Form["username"];
-                    dr["Password"] = Request.Form["password"];
-                    dr["Email"] = Request.Form["email"];
-                    dr["Gender"] = Request.Form["gender"];
-                    dr["Age"] = Request.Form["age"];
-                    dr["favArtist"] = Request.Form["favorite_artist"];
-                    dr["favGenre"] = Request.Form["genre"];
-                    dr["Admin"] = false;
+                
+                DataRow dr = ds.Tables["users"].NewRow();
+                dr["UserName"] = Request.Form["username"]; 
+                dr["FirstName"] = Request.Form["first_name"]; 
+                dr["LastName"] = Request.Form["last_name"]; 
+                dr["Password"] = Request.Form["password"];
+                dr["Email"] = Request.Form["email"];
+                dr["Gender"] = Request.Form["gender"];
+                dr["Age"] = Request.Form["age"];
+                dr["favArtist"] = Request.Form["favArtist"];
+                dr["favGenre"] = Request.Form["favGenre"];
+                dr["Admin"] = false;
 
-                    ds.Tables["users"].Rows.Add(dr);
+                ds.Tables["users"].Rows.Add(dr);
 
-                    SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
-                    adapter.Update(ds, "users");
-                }
-
-
+                SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+                adapter.Update(ds, "users");
             }
         }
     }

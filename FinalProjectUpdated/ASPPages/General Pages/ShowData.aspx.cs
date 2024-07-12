@@ -63,14 +63,46 @@ namespace FinalProjectUpdated.ASPPages
                 orderValue = "DESC";
             }
 
-
             //3. call the RetrieveTable() function
             string SQLStr = $"SELECT * FROM {Helper.tblName} ORDER BY {colIndex} {orderValue}";
             DataSet ds = Helper.RetrieveTable(SQLStr);
             DataTable dt = ds.Tables[0];
             string table = Helper.BuildSimpleTable(dt, columnHeaders);
             divTable.InnerHtml = table;
+        }
 
+        protected void deleteButton_ServerClicked(Object sender, EventArgs e)
+        {
+            string conString = Helper.conString;
+            string sqlStr = $"SELECT * FROM {Helper.tblName} WHERE UserName Like'{Request.Form[deleteUserId.UniqueID]}'";
+
+            SqlConnection con = new SqlConnection(conString);
+
+            SqlCommand cmd = new SqlCommand(sqlStr, con);
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+            DataSet ds = new DataSet();
+
+            adapter.Fill(ds, "users");
+
+            if (ds.Tables[0].Rows.Count == 0)
+            {
+                UserNotFound.InnerHtml = "משתמש לא נמצא";
+                return;
+            }
+
+            string deleteSQL = $"DELETE FROM {Helper.tblName} WHERE UserName Like'{Request.Form[deleteUserId.UniqueID]}'";
+            int affectedRowsCount = Helper.ExecuteNonQuery(deleteSQL);
+            if (affectedRowsCount > 0)
+            {
+                Response.Redirect("ShowData.aspx");
+            }
+            else
+            {
+                // unlikely to reach this point, because the fields are validated above...
+                UserNotFound.InnerHtml = "מחיקת משתמש נכשלה";
+            }
         }
     }
 }
