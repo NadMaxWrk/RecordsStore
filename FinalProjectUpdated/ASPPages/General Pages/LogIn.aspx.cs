@@ -54,7 +54,7 @@ namespace FinalProjectUpdated.ASPPages
         private void CheckUserExists(string username, string password)
         {
             string SQLStr = $"SELECT * FROM {Helper.tblName} WHERE UserName='{username}' AND Password='{password}' ";
-            DataSet ds = Helper.RetrieveTable(SQLStr);
+            DataSet ds = Helper.ExecuteQuery(SQLStr);
             DataTable dt = ds.Tables[0];
             if (dt?.Rows.Count > 0)
             {

@@ -20,7 +20,7 @@ public class Helper
     /// </summary>
     /// <param name="SQLStr">QueryString</param>
     /// <returns>DataSet with the Table </returns>
-    public static DataSet RetrieveTable(string SQLStr)
+    public static DataSet ExecuteQuery(string SQLStr)
     {
         // connect to DataBase
         SqlConnection con = new SqlConnection(conString);
@@ -40,31 +40,20 @@ public class Helper
         return ds;
     }
 
-    public static object GetScalar(string SQL)
-    {
-        // התחברות למסד הנתונים
-        SqlConnection con = new SqlConnection(conString);
-
-        // בניית פקודת SQL
-        SqlCommand cmd = new SqlCommand(SQL, con);
-
-        // ביצוע השאילתא
-        con.Open();
-        object scalar = cmd.ExecuteScalar();
-        con.Close();
-
-        return scalar;
-    }
-
+    /// <summary>
+    ///  execute a non query SQL command (INSERT, DELETE, UPDATE)
+    /// </summary>
+    /// <param name="SQL"></param>
+    /// <returns></returns>
     public static int ExecuteNonQuery(string SQL)
     {
-        // התחברות למסד הנתונים
+        // create a connection to the database
         SqlConnection con = new SqlConnection(conString);
 
-        // בניית פקודת SQL
+        // building the SQL command (query)
         SqlCommand cmd = new SqlCommand(SQL, con);
 
-        // ביצוע השאילתא
+        // executing the command
         con.Open();
         int n = cmd.ExecuteNonQuery();
         con.Close();
@@ -72,7 +61,28 @@ public class Helper
         // return the number of rows affected
         return n;
     }
-    
+
+    /// <summary>
+    ///  execute a scalar SQL command (SELECT COUNT, MAX, MIN, AVG)
+    /// </summary>
+    /// <param name="SQL"></param>
+    /// <returns></returns>
+    public static object GetScalar(string SQL)
+    {
+        // create a connection to the database
+        SqlConnection con = new SqlConnection(conString);
+
+        // building the SQL command with the query
+        SqlCommand cmd = new SqlCommand(SQL, con);
+
+        // executing query
+        con.Open();
+        object scalar = cmd.ExecuteScalar();
+        con.Close();
+
+        return scalar;
+    }
+
     /// <summary>
     /// the Method Build HTML user Table using the users in the DataTable dt.
     /// </summary>

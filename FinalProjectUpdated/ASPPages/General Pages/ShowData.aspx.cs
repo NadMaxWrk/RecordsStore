@@ -38,7 +38,7 @@ namespace FinalProjectUpdated.ASPPages
         {
             //building the users table
             string SQLStr = "SELECT * FROM " + Helper.tblName;
-            DataSet ds = Helper.RetrieveTable(SQLStr);
+            DataSet ds = Helper.ExecuteQuery(SQLStr);
             DataTable dt = ds.Tables[0];
             string table = Helper.BuildSimpleTable(dt, columnHeaders);
             divTable.InnerHtml = table;
@@ -63,9 +63,9 @@ namespace FinalProjectUpdated.ASPPages
                 orderValue = "DESC";
             }
 
-            //3. call the RetrieveTable() function
+            //3. call the ExecuteQuery() function
             string SQLStr = $"SELECT * FROM {Helper.tblName} ORDER BY {colIndex} {orderValue}";
-            DataSet ds = Helper.RetrieveTable(SQLStr);
+            DataSet ds = Helper.ExecuteQuery(SQLStr);
             DataTable dt = ds.Tables[0];
             string table = Helper.BuildSimpleTable(dt, columnHeaders);
             divTable.InnerHtml = table;
