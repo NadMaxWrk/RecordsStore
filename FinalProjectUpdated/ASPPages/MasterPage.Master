@@ -20,23 +20,17 @@
                     <a href="<%= ResolveUrl("~/ASPPages/General Pages/HomePage.aspx") %>">בית</a>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">
-                        אמנים
-                    </button>
+                    <button class="dropbtn"> אמנים</button>
                     <div class="dropdown-content" id="artists" runat="server">
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/TaylorSwift/TaylorSwiftAlbumsPage.aspx") %>">טיילור סוויפט</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/HarryStyles/HarryStylesAlbumsPage.aspx") %>">הארי סטיילס</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/BillieEilish/BillieEilishAlbumsPage.aspx") %>">בילי אייליש </a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/LanaDelRey/LanaDelReyAlbumsPage.aspx") %>">לנה דל ריי</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Artists/ArtistsPage.aspx") %>">כל האמנים</a>
-
                     </div>
                 </div>
                 <div class="dropdown" id="genres" runat="server">
-                    <button class="dropbtn">
-                        ז'אנרים
-            <i class="fa fa-caret-down"></i>
-                    </button>
+                    <button class="dropbtn">ז'אנרים<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-content" >
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/PopAlbums.aspx") %>">פופ</a>
                         <a href="<%= ResolveUrl("~/ASPPages/Genres/RockAlbums.aspx") %>">רוק</a>
@@ -46,14 +40,10 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">
-                        טפסים
-         <i class="fa fa-caret-down"></i>
-                    </button>
+                    <button class="dropbtn">טפסים<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-content" id="forms" runat="server">
                         <a href="<%= ResolveUrl("~/ASPPages/General Pages/FormPage.aspx") %>">טופס הרשמה</a>
                         <a href="<%= ResolveUrl("~/ASPPages/General Pages/LogIn.aspx") %>">התחברות</a>
-
                     </div>
                 </div>
                 <div id="ShowUsers" runat="server">

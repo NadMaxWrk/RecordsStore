@@ -22,3 +22,6 @@
 /FinalProjectUpdated/App_Data/RecordsStoreDB.mdf
 /FinalProjectUpdated/.vs/FinalProjectUpdated.csproj.dtbcache.json
 /FinalProjectUpdated/obj/Debug
+/FinalProjectUpdated/bin/FinalProjectUpdated.dll.config
+/FinalProjectUpdated/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/FinalProjectUpdated/Web.config
