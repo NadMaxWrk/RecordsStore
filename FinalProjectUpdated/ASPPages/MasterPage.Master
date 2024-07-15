@@ -4,9 +4,9 @@
 
 <!DOCTYPE html>
 
-<html>
+<html style="direction: rtl;    ">
 <head runat="server">
-    <title>The Records Store!</title>
+    <title>The Records Store</title>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

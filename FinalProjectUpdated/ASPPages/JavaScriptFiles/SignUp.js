@@ -94,7 +94,7 @@ function CheckFavArtist()
 
 function CheckGenre()
 {
-    return ValidateFieldNotEmpty("genere", "errorGenere", " לא הוזן ז'אנר אהוב");
+    return ValidateFieldNotEmpty("genre", "errorGenre", " לא הוזן ז'אנר אהוב");
 }
 
 function CheckAge()
@@ -118,7 +118,6 @@ function CheckGender()
         document.getElementById("errorGender").innerHTML = "לא הוזן מגדר";
         valid = false;
     }
-
     else
     {
         document.getElementById("errorGender").innerHTML = " ";
@@ -132,20 +131,25 @@ function CheckGender()
 function VerifyCreateUserFields()
 {
     var res = true;
-    res = CheckFirstName() && res;
-    res = CheckLastName() && res;
-    res = CheckUserName() && res;
-    res = CheckPassword() && res;
-    res = CheckPasswordConfirmed() && res;
-    res = CheckEmail() && res;
-    res = CheckFavArtist() && res;
-    res = CheckGenre() && res;
-    res = CheckAge() && res;
-    res = CheckGender() && res;
+    try {
+        res = CheckFirstName() && res;
+        res = CheckLastName() && res;
+        res = CheckUserName() && res;
+        res = CheckPassword() && res;
+        res = CheckPasswordConfirmed() && res;
+        res = CheckEmail() && res;
+        res = CheckFavArtist() && res;
+        res = CheckGenre() && res;
+        res = CheckAge() && res;
+        res = CheckGender() && res;
+    } catch (error) {
+        console.error(error);
+        return false;
+    }
 
     return res;
 }
-
+ 
 
 function ResetErrors()
 {
@@ -158,7 +162,7 @@ function ResetErrors()
     document.getElementById("errorGender").innerHTML = "";
     document.getElementById("errorAge").innerHTML = "";
     document.getElementById("errorFavArtist").innerHTML = "";
-    document.getElementById("errorGenere").innerHTML = "";
+    document.getElementById("errorGenre").innerHTML = "";
 
 }
 

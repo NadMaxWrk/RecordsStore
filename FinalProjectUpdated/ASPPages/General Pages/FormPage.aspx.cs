@@ -17,7 +17,7 @@ namespace FinalProjectUpdated.ASPPages
         }
 
         /// <summary>
-        /// just verifying the are not empy fields. fields proprietyes are checked in client side.
+        /// just verifying the fields are not empty. fields properties are checked at client side.
         /// </summary>
         /// <returns></returns>
         protected bool VerifyCreateUserFields()
@@ -32,8 +32,8 @@ namespace FinalProjectUpdated.ASPPages
                 string.IsNullOrEmpty(Request.Form["email"].ToString()) && 
                 string.IsNullOrEmpty(Request.Form["gender"].ToString()) && 
                 string.IsNullOrEmpty(Request.Form["age"].ToString()) &&
-                string.IsNullOrEmpty(Request.Form["favArtist"].ToString()) && 
-                string.IsNullOrEmpty(Request.Form["favGenre"].ToString())))
+                string.IsNullOrEmpty(Request.Form["fav_artist"].ToString()) && 
+                string.IsNullOrEmpty(Request.Form["genre"].ToString())))
             {
                 res = true;
             }
@@ -79,8 +79,8 @@ namespace FinalProjectUpdated.ASPPages
                 dr["Email"] = Request.Form["email"];
                 dr["Gender"] = Request.Form["gender"];
                 dr["Age"] = Request.Form["age"];
-                dr["favArtist"] = Request.Form["favArtist"];
-                dr["favGenre"] = Request.Form["favGenre"];
+                dr["favArtist"] = Request.Form["fav_artist"];
+                dr["favGenre"] = Request.Form["genre"];
                 dr["Admin"] = false;
 
                 ds.Tables["users"].Rows.Add(dr);

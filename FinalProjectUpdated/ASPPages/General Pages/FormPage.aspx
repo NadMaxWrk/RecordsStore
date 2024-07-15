@@ -86,10 +86,10 @@
 
         <tr>
             <td>
-                <label for="favorite_artist">אמן אהוב: </label>
+                <label for="fav_artist">אמן אהוב: </label>
             </td>
             <td>
-                <input type="text" id="fav_artist" name="favorite_artist" onblur="CheckFavArtist()"></td>
+                <input type="text" id="fav_artist" name="fav_artist" onblur="CheckFavArtist()"></td>
             <td id="errorFavArtist" style="color: red"></td>
         </tr>
         <tr>
@@ -112,7 +112,7 @@
 
         <tr>
             <td>
-                <asp:Button type="submit" CssClass="aspButton" Text="שליחת טופס" OnClientClick="return VerifyCreateUserFields()" OnClick="CreateNewUser" runat="server"></asp:Button>
+                <asp:Button type="submit" CssClass="aspButton" Text="שליחת טופס" OnClientClick="return VerifyCreateUserFields();" OnClick="CreateNewUser" runat="server"></asp:Button>
             </td>
 
             <td>
