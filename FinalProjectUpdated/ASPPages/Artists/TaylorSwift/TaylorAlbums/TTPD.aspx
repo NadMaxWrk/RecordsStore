@@ -32,11 +32,11 @@
         Down Bad <br />
         So Long, London <br />
         But Daddy I love Him <br />
-        fresh Out The Slammer <br />
+        Fresh Out The Slammer <br />
         Florida!!! (feat. Florence + The Machine) <br />
         Guilty As Sin <br />
         Who's Afraid of Little Old Me? <br />
-        I can Fix Him (No Really I Can) <br />
+        I Can Fix Him (No Really I Can) <br />
         loml <br />
         I Can Do It With A Broken Heart <br />
         The Smallest Man Who Ever Lived <br />
