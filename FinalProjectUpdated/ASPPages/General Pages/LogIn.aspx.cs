@@ -65,7 +65,8 @@ namespace FinalProjectUpdated.ASPPages
                 Session["UserName"] = "guest";
                 Session["LoggedIn"] = false;
                 Session["Admin"] = false;
-                divResponse.InnerHtml = "שם משתמש או סיסמה שגויים. <br> אינך רשום עדיין? הירשם כאן בטופס ההרשמה";
+                divResponse.InnerHtml = "שם משתמש או סיסמה שגויים. <br> אינך רשום עדיין? " +
+                                        " הירשם <a href='FormPage.aspx'>כאן</a> בטופס ההרשמה";
             }
         }
     }

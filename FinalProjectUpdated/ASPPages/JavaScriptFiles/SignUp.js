@@ -163,6 +163,8 @@ function ResetErrors()
     document.getElementById("errorAge").innerHTML = "";
     document.getElementById("errorFavArtist").innerHTML = "";
     document.getElementById("errorGenre").innerHTML = "";
+    document.getElementById(userAlreadyExistsClientID).innerHTML = "";
+    document.getElementById(fieldsServerErrorClientID).innerHTML = "";
 
 }
 

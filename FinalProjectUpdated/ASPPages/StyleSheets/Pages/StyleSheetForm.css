@@ -14,12 +14,12 @@ h1 {
 }
 
 table {
+    margin-top: 50px;
     margin-left: auto;
     margin-right: 750px;
     align-content: center;
     width: 600px;
     height: 500px;
-    margin-top: 50px;
     font-size: 25px;
     font-family: Calibri;
     border-color: black;
@@ -33,4 +33,12 @@ input {
 tr {
     border: double;
     border-color: white;
+}
+
+.errorColumns{
+    color: red;
+    font-size: 20px;
+    font-family: Calibri;
+    margin-left: 50px;
+    width: 1000px;
 }

@@ -19,7 +19,7 @@
          </div>
 
      <p class="tracklist">
-         Muisc For A Sushi Restaurant <br />
+         Music For A Sushi Restaurant <br />
          Late Night Talking <br />
          Grapejuice <br />
          As It Was <br />

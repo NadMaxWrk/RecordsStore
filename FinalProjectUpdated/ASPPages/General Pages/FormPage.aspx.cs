@@ -86,7 +86,16 @@ namespace FinalProjectUpdated.ASPPages
                 ds.Tables["users"].Rows.Add(dr);
 
                 SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
-                adapter.Update(ds, "users");
+                int rows = adapter.Update(ds, "users");
+                if (rows == 1)
+                {
+                    FieldsServerError.InnerHtml = "המשתמש נוצר בהצלחה";
+                    Response.Redirect("LogIn.aspx");
+                }
+                else
+                {
+                    FieldsServerError.InnerHtml = "שגיאה ביצירת המשתמש";
+                }
             }
         }
     }

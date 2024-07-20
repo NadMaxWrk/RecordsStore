@@ -46,10 +46,9 @@
 
     </table>
 
-    <div id="divResponse" name="divResponse" runat="server">
+    <div id="divResponse" name="divResponse" runat="server" style="text-align: center">
 
     </div>
-
 
 
 </asp:Content>

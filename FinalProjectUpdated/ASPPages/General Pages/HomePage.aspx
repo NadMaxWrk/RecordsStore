@@ -3,6 +3,8 @@
 <asp:Content ID="HomePage" ContentPlaceHolderID="head" runat="server">
     <link href="../StyleSheets/Pages/StyleSheetHomePage.css" rel="stylesheet" />
     <script src="../JavaScriptFiles/ImageCarousel.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -46,24 +48,6 @@
                 </div>
             </div>
         </section>
-
-        <%--<!-- Genres Section -->
-        <section id="genres">
-            <h2>Genres</h2>
-            <ul>
-                <li><a href="genres/pop.html">Pop</a></li>
-                <li><a href="genres/rock.html">Rock</a></li>
-                <li><a href="genres/indie_folk.html">Indie Folk</a></li>
-            </ul>
-        </section>
-
-        <!-- Call to Action Section -->
-        <section id="cta">
-            <h2>Join Our Community</h2>
-            <p>Sign up to stay updated with the latest records and more!</p>
-            <a href="signup.html" class="btn">Sign Up</a>
-            <a href="login.html" class="btn">Log In</a>
-        </section>--%>
     </main>
 
 
