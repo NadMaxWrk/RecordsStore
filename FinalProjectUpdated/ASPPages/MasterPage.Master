@@ -52,7 +52,7 @@
             </div>
             
          <div class="user-info">
-                <span id="userName" runat="server">
+                <span style="margin-top: 20px;" id="userName" runat="server">
                     <%# GetGreetingMessage() %>
                 </span>
                 <input type="button" id="Abandon" runat="server" onserverclick="Btn_Abandon" value="יציאה" class="exit-button" />
