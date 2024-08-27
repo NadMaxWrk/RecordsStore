@@ -53,7 +53,7 @@ export function CheckUserName()
 export function CheckPassword()
 {
     var password = document.getElementById("password").value;
-    var valid = ValidateFieldNotEmpty("password", "errorPassword", "לא הוזנה סיסמה  "); //TODO: Replace "password" with password
+    var valid = ValidateFieldNotEmpty("password", "errorPassword", "לא הוזנה סיסמה  "); 
     if (valid)
     {
         valid = ValidatePassword(password);
